@@ -9,3 +9,9 @@ document.write(cadena + "<br>");
 document.write("CADENA AL REVES" + "<br>");
 document.write(palabras.reverse() + "<br>");
 
+/*
+for (let i = 0; i < cadena.length(); i++) {
+    document.write(palabras.reverse(i) + "<br>");
+}
+*/
+
