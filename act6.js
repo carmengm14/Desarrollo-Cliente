@@ -5,13 +5,14 @@ document.write("La cadena en mayusculas es: " + cadena.toUpperCase() + "<br>");
 document.write("La cadena en minusculas es: " + cadena.toLowerCase() + "<br>");
 document.write("CADENA NORMAL" + "<br>");
 var palabras = cadena.split(" ");
+var arrayPalabras = [palabras];
 document.write(cadena + "<br>");
 document.write("CADENA AL REVES" + "<br>");
 document.write(palabras.reverse() + "<br>");
 
-/*
-for (let i = 0; i < cadena.length(); i++) {
-    document.write(palabras.reverse(i) + "<br>");
+
+for (let i = 0; i < arrayPalabras; i++) {
+    document.write(palabras.reverse[i] + "<br>");
 }
-*/
+
 
