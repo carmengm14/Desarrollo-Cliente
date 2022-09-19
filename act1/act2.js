@@ -4,7 +4,7 @@ var contador = 0;
 for (var i = 1; i <= 5; i++) {
     var numero = parseInt(prompt("Escribe 5 numeros (" + i + ")"));
     suma += numero;
-    if (numero >= 100) {
+    if (numero > 100) {
       contador++;  
     }
 }
