@@ -1,22 +1,15 @@
 var navegador = navigator.appCodeName;
 if (navegador != "msie") {
     document.write("Operacion no permitida con este navegador")
- 
+
 }else{
-    var miVentana;
-    var anchura = 500;  anchura = parseInt(anchura);
-    var altura     = 500;  altura = parseInt(altura);
-    
-    function abrirVentana()
-    {
-    miVentana = window.open("", "ventanaHija", "width=500, height=500, resizable");
+    var miVentanaAltura = screen.height;    
+    var miVentanaAnchura = screen.width;
+    anchura = 500;
+    altura =  500;
+
+    if (miVentanaAltura != 500, miVentanaAnchura != 500) {
+        miVentana.resizeTo(anchura, altura);
     }
-    
-           function redimensionarVentana()
-    {
-    anchura = anchura + 100;
-    altura = altura + 100;
-    
-    miVentana.resizeTo(anchura,  altura);
-    } 
+
 }
