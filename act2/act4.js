@@ -1,7 +1,6 @@
 var navegador = navigator.userAgent;
 if (navegador != "msie") {
-    var nueva = window.open("","pagina2","toolbar=yes,location=no,menubar=yes"+ "width=500,height=500");
-
+    alert("OPERACION NO PERMITIDA EN ESTE NAVEGADOR");
     /*
     var miVentanaAltura = screen.height;    
     var miVentanaAnchura = screen.width;
@@ -13,7 +12,7 @@ if (navegador != "msie") {
 
     
 }else{
-    var nueva = window.open("","pagina2","width=500,height=500");
+    var nueva = window.open("","pagina2","toolbar=yes,location=no,menubar=yes"+ "width=500,height=500");
 
 
 }
