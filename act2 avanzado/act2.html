@@ -15,8 +15,17 @@
     Hola, tu navegador no tiene habilitado JavaScript, porfavor habilitalo.
   </noscript>
 
-  <form>
-    
+  <form action="/login.php" id="formulario">
+    <p>
+      DNI: <input type="text" name="dni" id="dni">
+    </p>
+    <input type="submit" value="ENVIAR">
   </form>
+
+  <!--<form>
+    <label for="dni">DNI:</label>
+    <input type="text" id="dni" name="00000000X"><br><br>
+    <input type="submit" value="ENVIAR" onclick="comprobarDNI()">
+  </form>-->
 </body>
 </html>
