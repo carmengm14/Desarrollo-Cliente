@@ -1,3 +1,3 @@
-function cambiarColor($color) {
-    document.bgColor = $color;
+function cambiarColor(color) {
+    document.bgColor = color;
 }
