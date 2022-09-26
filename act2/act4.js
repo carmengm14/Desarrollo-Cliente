@@ -1,4 +1,4 @@
-var navegador = navigator.appCodeName;
+var navegador = navigator.userAgent;
 if (navegador != "msie") {
     document.write("Operacion no permitida con este navegador")
     var miVentanaAltura = screen.height;    
