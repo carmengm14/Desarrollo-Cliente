@@ -5,9 +5,10 @@ document.addEventListener("DOMContentLoaded", function() {
   function validarFormulario(evento) {
     evento.preventDefault();
     var clave = document.getElementById('dni').value;
-    if (clave.length < 9 || clave.length > 0) {
-      alert('La clave no es válida');
-      return;
+    if (clave.length == 9) {
+      alert('La clave es válida');
+    }else{
+      alert('La clave NO es válida');
     }
     this.submit();
   }
