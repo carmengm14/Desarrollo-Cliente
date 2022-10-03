@@ -1,2 +1,3 @@
-setTimeout(alert('BIENVENIDO A LA PAGINA'),20);
-var w = window.open('','');
+alert('BIENVENIDO A LA PAGINA');
+setTimeout(window.open("act4.html"), 200);
+
