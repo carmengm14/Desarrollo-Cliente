@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>El primer script</title>
+<!-- Añandimos el link a nuestro Script de Js-->
+<script src="act1.js">
+</script>
+</head>
+
+<body>
+  <!-- noscript sirve para cuando el navegador no acepta JavaScript pues sale el mensaje de no habilitado que hemos escrito
+  pero si, si lo tiene habilitado el navegador saldra el Js y este mensaje de nosrcipt se ocultara-->
+  <noscript>
+    Hola, tu navegador no tiene habilitado JavaScript, porfavor habilitalo.
+  </noscript>
+<p>Este es mi primer párrafo</p>
+
+<div id="insertar"></div>
+<div id="reemplazar"></div>
+<div id="anadir"></div>
+
+<button onclick="anadir_parrafo()">Añadir un parrafo</button> <br><br>
+<button onclick="insertar_parrafo()">Insertar nuevo parrafo</button> <br><br>
+<button onclick="reemplazar_parrafo()">Reemplazar parrafo</button> <br><br>
+<button onclick="eliminar_parrafo()">Eliminar parrafo</button> <br><br>
+<button onclick="clonar_div()">Clonar div</button> <br><br>
+
+
+</body>
+</html>
