@@ -1,0 +1,7 @@
+function imagenes(){
+
+}
+
+function links(){
+    
+}
