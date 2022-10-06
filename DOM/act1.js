@@ -2,19 +2,20 @@ function anadir_parrafo(){
     var parrafo = document.createElement('p');
     var texto = document.createTextNode('Párrafo añadido.');
     parrafo.appendChild(texto);
-    document.getElementById('anadir').appendChild(parrafo);
+    document.getElementById('editar').appendChild(parrafo);
 }
 
 function insertar_parrafo(){
     var parrafo = document.createElement('p');
     var texto = document.createTextNode('Párrafo insertado.');
     parrafo.appendChild(texto);
-    document.getElementById('insertar').appendChild(parrafo);
+    var cogerElemento = document.getElementById('editar').getElementsByTagName('p')[1];
+    document.getElementById('editar').insertBefore(parrafo, cogerElemento);
 }
 
 function reemplazar_parrafo(){
-    var parrafo = document.getElementById('insertar');
-    var texto = parrafo.children[0];
+    var parrafo = document.getElementById('editar');
+    var texto = parrafo.children[1];
 
     var nuevoparrafo = document.createElement('p');
     nuevoparrafo.textContent = 'Párrafo remplazado';
@@ -23,13 +24,10 @@ function reemplazar_parrafo(){
 }
 
 function eliminar_parrafo(){
-    var parrafo = document.getElementById('reemplazar');
-    parrafo.parentNode.removeChild('reemplazar');
+    var cogerElemento = document.getElementById('editar').getElementsByTagName('p')[1].remove();
 }
 
-function clonar_parrafo(){
-    var parrafo1 = document.getElementById('anadir');
-    var parrafo2 = document.getElementById('insertar');
-    var parrafo3 = document.getElementById('reemplazar');
-    var clonacion = parrafo1.cloneNode(true);
+function clonar_div(){
+    parrafo = document.getElementById('editar').cloneNode(true);
+    document.body.appendChild(parrafo);
 }
