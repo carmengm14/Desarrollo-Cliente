@@ -28,9 +28,10 @@ window.onload = function(){
     function referenciaParrafos(){
         texto ="";
         var parrafo = document.getElementsByTagName('p');
-
         for (let i = 0; i < parrafo.length; i++) {
             var enlace = parrafo[i].getElementsByTagName('a');
+            texto += "parrafo " + i + ": " ;
+
             for (let j = 0; j < enlace.length; j++) {
                 texto += enlace[j].href;
                 texto += "\n";                

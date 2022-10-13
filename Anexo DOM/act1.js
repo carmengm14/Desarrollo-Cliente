@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", function() {
     evento.preventDefault();
     var clave = document.getElementById('dni').value;
     if (clave.length == 9) {
-      document.write('La clave es válida');
+     alert('La clave es válida');
     }else{
-      document.write('La clave NO es válida');
+      alert('La clave NO es válida');
     }
     this.submit();
   }
