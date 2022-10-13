@@ -47,7 +47,7 @@ window.onload = function(){
     function parrafosVerdes(){
         for (let i = 0; i < cantidad.length; i++) {
             document.getElementsByTagName("p")[i].style.backgroundColor = '#006414';
-            document.getElementsByTagName("p")[i].style.color = 'white';
+            document.getElementsByTagName("a")[i].style.color = 'white';
         }
 
     }
@@ -60,7 +60,7 @@ window.onload = function(){
     function desactivar(){
         for (let i = 0; i < cantidad.length; i++) {
             document.getElementsByTagName("p")[i].style.backgroundColor = '#FFFFFF';
-            document.getElementsByTagName("p")[i].style.color = 'black';
+            document.getElementsByTagName("a")[i].style.color = 'black';
         }
 
     }
