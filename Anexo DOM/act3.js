@@ -31,7 +31,7 @@ window.onload = function(){
 
         for (let i = 0; i < parrafo.length; i++) {
             var enlace = parrafo[i].getElementsByTagName('a');
-            texto += "parrafo " + i + ": " ;
+            texto += "parrafo " + (i+1) + ": " ;
             for (let j = 0; j < enlace.length; j++) {
                 texto += enlace[j].href;
                 texto += "\n";                
