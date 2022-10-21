@@ -3,22 +3,35 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>El primer script</title>
-<!-- Añandimos el link a nuestro Script de Js-->
-<script src="act5.js">
+
+<script type="text/javascript">
+
+function showKeyPress(evt){
+  valores = evt.value;
+  if (valores > 48 && svalores < 57) {
+   
+  }else{
+    alert("VALORES NO PERMITIDOS");
+    onkeydown = KeyDown(valores);
+  }
+
+}
+function KeyDown(valores){
+  valores = "";
+}
+
 </script>
 </head>
 
 <body>
-  <!-- noscript sirve para cuando el navegador no acepta JavaScript pues sale el mensaje de no habilitado que hemos escrito
+<!-- noscript sirve para cuando el navegador no acepta JavaScript pues sale el mensaje de no habilitado que hemos escrito
   pero si, si lo tiene habilitado el navegador saldra el Js y este mensaje de nosrcipt se ocultara-->
   <noscript>
     Hola, tu navegador no tiene habilitado JavaScript, porfavor habilitalo.
   </noscript>
-<div>
-    <form>
-        <input type="number" name="campoNumeros" id="campoNumeros">
-        <input type="submit" value="ENVIAR">
-    </form>
-</div>
+  
+  <input type="text" name="texto" id="texto" onkeypress="showKeyPress(texto)">
+  <input type="submit" value="ENVIAR">
+
 </body>
 </html>
