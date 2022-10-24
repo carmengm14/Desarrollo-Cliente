@@ -4,22 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>El primer script</title>
 
-<script type="text/javascript">
-
-function showKeyPress(evt){
-  valores = evt.value;
-  if (valores > 48 && svalores < 57) {
-   
-  }else{
-    alert("VALORES NO PERMITIDOS");
-    onkeydown = KeyDown(valores);
-  }
-
-}
-function KeyDown(valores){
-  valores = "";
-}
-
+<script src="act5.js">
 </script>
 </head>
 
@@ -30,8 +15,8 @@ function KeyDown(valores){
     Hola, tu navegador no tiene habilitado JavaScript, porfavor habilitalo.
   </noscript>
   
-  <input type="text" name="texto" id="texto" onkeypress="showKeyPress(texto)">
-  <input type="submit" value="ENVIAR">
+  <input type="text" name="texto" id="texto">
+
 
 </body>
 </html>
