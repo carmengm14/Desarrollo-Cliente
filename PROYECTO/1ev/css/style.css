@@ -261,10 +261,12 @@ header{
 
 /*footer*/
 footer{
-  margin: 20px;
+  background-color: #222;
+  color: white;
 }
 
 .lista-footer{
+  padding-top: 20px;
   align-items: center;
   text-align: center;  
 }
@@ -274,6 +276,7 @@ footer{
 .lista-footer ul li{
   display: inline-block;
   margin: 30px;
+  width: 290px;
 }
 .formulario{
   text-align: justify;
