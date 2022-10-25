@@ -172,10 +172,89 @@ header{
   }
 
  /*SEPARADOR*/
- .separador{
+ .separadoralto{
    margin-top: 200px;
  }
-
+ .separadorbajo{
+  margin-bottom: 200px;
+}
 
  /*ACORDEON*/
+ .acordeon{
+   background-color: #ff9a00;
+ }
+ .accordion {
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;
+   width: 50%;
+   height: auto;
+   font-family: Arial, Helvetica, sans-serif;
+   border: 1px solid #222;
+   border-radius: 8px;
+   margin:0 auto;
+   
+ }
+ /*Contenedor común plegar/desplegar*/
+ .accordion-toggle,
+ .accordion-header{
+   font-size: 15px;
+   width: 100%;
+   height: 3em;
+   margin: 0;
+   line-height: 3em;
+   cursor: pointer;
+ }
+ /*El botón que pliega/despliega*/
+ .accordion-toggle {
+   opacity: 0;
+   background-color: transparent;
+   z-index: 1;
+   margin-bottom: 2px;
+ }
+ /*Bloque para el título*/
+ .accordion-header{
+   background-color: #3b3b88;
+   color: white;
+   position: relative;
+   margin-top: -3em;
+   padding-left: 10px
+ }
+ 
+ /*Bloque replegable con el contenido */
+ .accordion-content {
+   box-sizing: border-box;
+   background-color: rgb(112, 112, 206);
+   color: white;
+   overflow: auto;
+   position: relative;
+   width: 100%;
+   height: 250px;
+   margin-bottom: -250px;
+   padding: 20px;
+   transition: margin 0.3s ease 0.1s;
+   }
+ .accordion-toggle:checked + .accordion-header + .accordion-content {
+   margin-bottom: 0;
+   margin-right: 0;
+ }
+ .accordion-header::before,
+ .accordion-toggle:checked + .accordion-header::before {
+   content: '+';
+   display: inline-block;
+   text-align: center;
+   width: 1em;
+   font-size: 1.em;
+ }
+ .accordion-toggle:checked + .accordion-header::before {
+   content:'-';
+ }
+ 
+ .accordion-toggle:hover + .accordion-header{
+  background-color: rgb(59, 59, 136);
+}
+ .accordion-toggle:checked + .accordion-header {
+  background-color: rgb(59, 59, 136);
+}
  
