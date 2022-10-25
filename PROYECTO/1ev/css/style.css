@@ -59,17 +59,18 @@ header{
 @media (max-width:768px){
     .checkbtn{
         display: block;
+        position: absolute;
     }
     .menu-icon{
         display: block;
-        position: fixed;
-        top: 40px;
+        position: relative;
+        top: -10px;
         right: 20px;
         cursor: pointer;
     }
     .nav-menu ul{
         display: block;
-        position: fixed;
+        position: absolute;
         top:100px;
         left:-100%;
         background: #222;
@@ -99,9 +100,17 @@ header{
 }
 
 /*SLIDER*/
+@media (max-width:768px){
+  .slider {
+    width: 100%;
+    margin-bottom: auto !important;
+    overflow: hidden;
+    height: 20;
+  }
+}
 .slider {
     width: 100%;
-    margin: auto;
+    margin-bottom: -200px;
     overflow: hidden;
     height: 20;
   }
@@ -117,6 +126,7 @@ header{
   .slider li {
     width: 100%;
     list-style: none;
+    margin: 0px;
   }
   
   .slider li img {
@@ -161,4 +171,7 @@ header{
     }
   }
 
- 
+ /*SEPARADOR*/
+ .separador{
+   margin-top: 200px;
+ }
