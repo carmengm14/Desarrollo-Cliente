@@ -8,7 +8,8 @@ function validarFormulario(event) {
   if (elementoParseado > 0 && elementoParseado < 9 ) {
   }
   else {
-      elemento.preventDefault();
+      
+    elemento.preventDefault();
       alert("CARÁCTER NO PERMITIDO")
   }
 }
