@@ -258,3 +258,36 @@ header{
   background-color: rgb(59, 59, 136);
 }
  
+
+/*footer*/
+footer{
+  margin: 20px;
+}
+
+.lista-footer{
+  align-items: center;
+  text-align: center;
+}
+.lista-footer ul{
+  display: block;
+}
+.lista-footer ul li{
+  display: inline-block;
+  margin: 30px;
+}
+.formulario{
+  text-align: justify;
+  background-color: #ff9a00;
+  border-radius: 10px;
+  padding: 10px;
+}
+span{
+	color: #3b3b88; 
+}
+input{
+  height: 20px;
+  width: 250px;
+  align-items:stretch;
+  border-radius: 3px;
+  border-color: #ff9a00;
+}
