@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+.cuerpoNovedades{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+}
+
+.anyo{
+    margin:20px;
+    padding: 20px;
+    background-color: rgba(255, 154, 0,0.9);
+    align-items: center;
+}
+
+.titulo-mes{
+    margin: 20px;
+    background-color: rgba(255, 255, 255,0.7);
+    padding: 10px;
+}
+.meses{
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.meses h1{
+    display:block;
+}
+
+/*CARRUSEL DE MESES*/
+
+@media (max-width:768px){
+    .slide-container{
+        max-width: 600px ;
+        width: 100%;
+    }
+}
+
+.slide-container{
+    max-width: 1300px ;
+    width: 100%;
+}
+
+.slide-content{
+    margin: 0 40px;
+}
+
+.card{
+    width: 200px;
+    max-width: 350px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.image-content, .card-content{
+    display:flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.image-content{
+    row-gap: 5px;
+}
+
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+}
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #3b3b88;
+}
+
+.card-title{
+    font-size: 25px;
+    font-weight: 300;
+    color: #3b3b88;
+}
+.mini-descripcion{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.boton{
+    border:none;
+    font-size: 15px;
+    background-color: #3b3b88;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+.boton:hover{
+    background-color: #ff9a00;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
