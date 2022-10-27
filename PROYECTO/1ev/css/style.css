@@ -11,6 +11,23 @@ body{
     background-color: white;
     font-family: 'Montserrat', sans-serif;
 }
+
+h1{
+  padding: 20px;
+  font-size: 28px;
+  color: #3b3b88;
+  text-align: center;
+}
+hr{
+  width: 350px;
+}
+h3{
+  padding: 20px;
+  font-size: 18px;
+  color: #3b3b88;
+  text-align: center;
+}
+
 /* MENU*/
 header{
     background-color: #222;
@@ -341,4 +358,22 @@ textarea{
 }
 .copyright a:hover{
   color: #fff;
+}
+
+/*EXPLICACION CALCULADOAR*/
+.explicacion{
+  text-align: justify;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+@media (max-width:768px){
+  .explicacion{
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+  } 
 }

@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../imagenes/logo16x16.svg">
 
+    <script src="../js/calculadoraScript.js"></script>
     <link rel="stylesheet" href="../css/style.css">
     <title>GYMyJAM</title>
 </head>
 <body>
+    <noscript>
+        HABILITA JAVASCRIPT EN TU NAVEGADOR PARA PODER VISUALIZAR ESTA PÁGINA CORRECTAMENTE
+    </noscript>
     <!-- CABECERA DE BARRA DE NAVEGACIÓN RESPONSIBA-->
     <header class="header">
         <div class="logo-header">
@@ -29,6 +33,113 @@
             </ul>
         </div>
     </header>
+
+
+    <h1>- CALCULADORA DE MACROS -</h1>
+    <center><hr></center>
+    <h3>¿QUÉ SÓN LOS MACROS?</h3>
+    <div class="explicacion">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo excepturi natus voluptatibus similique, debitis quae commodi est consequuntur maiores. Labore placeat sint aspernatur harum sunt. Perspiciatis placeat perferendis quia aut! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, nesciunt. Totam, assumenda ea? Ipsam iusto, maxime ratione illum quas modi nesciunt accusamus illo fugiat voluptatem voluptas, rerum, sed architecto tempora? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quas cum molestias dignissimos. Tempore id beatae voluptate aliquam esse, suscipit consequatur dolore, aut nulla laboriosam cumque quia accusamus, quis quo.</p>
+    </div>
+    <div class="calculadora">
+        <div class="preguntas">
+                <form method="POST">
+                    <h3>DATOS IMPORTANTES</h3>
+                    <p>
+                        PESO: 
+                    <input type="text" name="peso" value="0" id="peso" />
+                    <label for="peso"></label>
+                    </p>
+                    <br>
+                    <p>
+                        EDAD: 
+                    <input type="text" name="edad" value="0" id="edad" />
+                    <label for="edad"></label>
+                    </p>
+                    <br>
+                    <p>
+                        ALTURA: 
+                    <input type="text" name="altura" value="0" id="altura" />
+                    <label for="altura"></label>
+                    </p>
+                    <br>
+
+                    <input type="button" value="GUARDAR DATOS" onclick="operacion(peso.value,edad.value ,altura.value)">
+
+                    <br><br>
+                    <p>TUS KCAL BASALES SON:</p>
+                    <p><input type="text" id="basal" name="basal"> kcal / día</p>
+
+                    <br><br>
+
+                    <h3>- ACTIVIDAD FÍSICA -</h3>
+                    <p class="actividad">
+                        ACTIVIDAD NADA / POCA (0-1 x semana)
+                        <input type="radio" name="act-poco" id="act-poco" >
+                    </p>
+                    <p class="actividad">
+                        ACTIVIDAD LIGERA (1-2 x semana)
+                        <input type="radio" name="act-ligero" id="act-ligero" >
+                    </p>
+                    <p class="actividad">
+                        ACTIVIDAD MODERADA (3-5 x semana)
+                        <input type="radio" name="act-moderada" id="act-moderada" >
+                    </p>
+                    <p class="actividad">
+                        ACTIVIDAD INTENSA (6-7 x semana)
+                        <input type="radio" name="act-intensa" id="act-intensa" >
+                    </p>
+                    <br>
+                    <input type="button" value="GUARDAR DATOS" onclick="calcular(peso.value,edad.value ,altura.value)">
+
+                    <br><br>
+                    <p>TUS KCAL TOTALES A CONSUMIR SON:</p>
+                    <p><input type="text" id="total" name="total"> kcal totales / día</p>
+
+                    <br><br>
+                </form>
+
+                <h3>- TUS MACRONUTIENTES -</h3>
+                <div class="cajitas">
+                    <br>
+                    <input type="button" value="CALCULAR" onclick="macros()">
+
+                    <br><br>
+                    <div class="cajita">
+                        <h4 class="titulo">PROTEÍNAS</h4>
+                        <p><input type="text" id="proteinas" name="proteinas"> kcal totales proteina / día</p>
+                    </div>
+                    <div class="cajita">
+                        <h4 class="titulo">CARBOHIDRATOS</h4>
+                        <p><input type="text" id="carbohidratos" name="carbohidratos"> kcal totales carbohidratos / día</p>
+                    </div>
+                    <div class="cajita">
+                        <h4 class="titulo">GRASAS</h4>
+                        <p><input type="text" id="grasas" name="grasas"> kcal totales grasas / día</p>
+                    </div>
+                </div>
+
+                <h3>- EJEMPLOS DE KCAL POR DIETA -</h3>
+                <div class="dietas">
+                    <br>
+                    <input type="button" value=" VER KCAL POR DIETAS" onclick="dietas()">
+
+                    <br><br>
+                    <div class="dieta">
+                        <h4 class="titulo">DEFINICIÓN</h4>
+                        <p><input type="text" id="definicion" name="definicion"> kcal totales / día</p>
+                    </div>
+                    <div class="dieta">
+                        <h4 class="titulo">MANTENIMIENTO</h4>
+                        <p><input type="text" id="mantenimiento" name="mantenimiento"> kcal totales / día</p>
+                    </div>
+                    <div class="dieta">
+                        <h4 class="titulo">VOLUMEN</h4>
+                        <p><input type="text" id="volumen" name="volumen"> kcal totales / día</p>
+                    </div>
+                </div>
+            </div>
+    </div>
 
 
         <!--PIE DE PAGINA-->
