@@ -132,6 +132,8 @@ header{
   .slider li img {
     width: 100%;
     height: 70%;
+    box-shadow: 0 10px 35px #3b3b88;
+
   }
   
   @supports (object-fit: cover) {
