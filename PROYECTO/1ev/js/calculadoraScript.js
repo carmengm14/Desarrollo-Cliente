@@ -64,10 +64,10 @@ window.onload = function () {
         definicion = totales - 300;
         document.getElementById("definicion").value = definicion.toFixed(2);
         
-        mantenimiento = totales;
+        mantenimiento = (totales);
         document.getElementById("mantenimiento").value = mantenimiento.toFixed(2);
 
-        volumen = totales + 500;
+        volumen = (totales + 500);
         document.getElementById("volumen").value = volumen.toFixed(2);
 
     }
