@@ -7,12 +7,15 @@ caption {
     background-color: #3b3b88;
     color: white;
     padding: 5px;
+    border-radius: 5px;
   }
   td {
     background-color: #3b3b88;
     color: white;
     padding: 8px;
     text-align: center;
+    border-radius: 5px;
+
   }
   table{
       align-content: center;
@@ -22,6 +25,8 @@ caption {
       border: 2px black solid;
       border-spacing: 10px;
       border-radius: 35px;
+      box-shadow: 0 5px 10px #000;
+
   }
 
   /*CLASES*/
