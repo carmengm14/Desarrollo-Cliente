@@ -360,7 +360,7 @@ textarea{
   color: #fff;
 }
 
-/*EXPLICACION CALCULADOAR*/
+/*EXPLICACION CALCULADORA*/
 .explicacion{
   text-align: justify;
   margin-right: 150px;
@@ -368,6 +368,14 @@ textarea{
   margin-bottom: 20px;
   padding: 20px;
 }
+
+.calculadora{
+  margin-right: 150px;
+  margin-left: 150px;
+  align-items:center;
+  text-align: center;
+}
+
 @media (max-width:768px){
   .explicacion{
     text-align: justify;

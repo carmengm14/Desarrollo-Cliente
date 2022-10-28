@@ -59,20 +59,19 @@ window.onload = function () {
     }
 
     function dietas() {
-        var totales = document.getElementById("total").value;
+        var totales = parseInt(document.getElementById("total").value);
 
-        definicion = totales - 300;
+        var definicion = totales - 300;
         document.getElementById("definicion").value = definicion.toFixed(2);
-        
-        mantenimiento = (totales);
-        document.getElementById("mantenimiento").value = mantenimiento.toFixed(2);
+       
+        var mantenimiento = totales;
+        document.getElementById("mantenimiento").value = mantenimiento;
 
-        volumen = (totales + 500);
-        document.getElementById("volumen").value = volumen.toFixed(2);
+        var volumen = (totales + 500);
+        document.getElementById("volumen").value = volumen;
 
     }
 
-    
-
-
-
+    function borrarSeleccion(){
+        document.querySelectorAll('[name=act]').forEach((x) => x.checked = false);
+    }

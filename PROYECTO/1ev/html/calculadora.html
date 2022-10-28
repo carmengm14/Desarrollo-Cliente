@@ -8,6 +8,8 @@
 
     <script src="../js/calculadoraScript.js"></script>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styleCalculadora.css">
+
     <title>GYMyJAM</title>
 </head>
 <body>
@@ -45,100 +47,108 @@
         <div class="preguntas">
                 <form method="POST">
                     <h3>DATOS IMPORTANTES</h3>
-                    <p>
-                        PESO: 
-                    <input type="text" name="peso" value="0" id="peso" />
-                    <label for="peso"></label>
-                    </p>
-                    <br>
-                    <p>
-                        EDAD: 
-                    <input type="text" name="edad" value="0" id="edad" />
-                    <label for="edad"></label>
-                    </p>
-                    <br>
-                    <p>
-                        ALTURA: 
-                    <input type="text" name="altura" value="0" id="altura" />
-                    <label for="altura"></label>
-                    </p>
-                    <br>
+                    <p class="datos">
+                    <label for="peso">PESO: </label>
+                    <input class="escritura" type="text" name="peso" value="0" id="peso" />
+                      
+                    <label for="edad">EDAD:</label>
+                    <input class="escritura" type="text" name="edad" value="0" id="edad" />
 
-                    <input type="button" value="GUARDAR DATOS" onclick="operacion(peso.value,edad.value ,altura.value)">
+                    <label for="altura">ALTURA:</label>
+                    <input class="escritura" type="text" name="altura" value="0" id="altura" />
+                    <br><br>
 
+                    <input class="botones" type="button" value="GUARDAR DATOS" onclick="operacion(peso.value,edad.value ,altura.value)">
+
+                    </p>
+                   
                     <br><br>
                     <p>TUS KCAL BASALES SON:</p>
-                    <p><input type="text" id="basal" name="basal"> kcal / día</p>
+                    <p><input class="escritura" type="text" id="basal" name="basal"> kcal / día</p>
 
-                    <br><br>
+                    <br><br><center><hr></center>
 
                     <h3>- ACTIVIDAD FÍSICA -</h3>
+                    <div class="datos">
                     <p class="actividad">
                         ACTIVIDAD NADA / POCA (0-1 x semana)
-                        <input type="radio" name="act-poco" id="act-poco" >
+                        <input class="selector" type="radio" name="act" id="act-poco" >
                     </p>
                     <p class="actividad">
                         ACTIVIDAD LIGERA (1-2 x semana)
-                        <input type="radio" name="act-ligero" id="act-ligero" >
+                        <input class="selector" type="radio" name="act" id="act-ligero" >
                     </p>
                     <p class="actividad">
                         ACTIVIDAD MODERADA (3-5 x semana)
-                        <input type="radio" name="act-moderada" id="act-moderada" >
+                        <input class="selector" type="radio" name="act" id="act-moderada" >
                     </p>
                     <p class="actividad">
                         ACTIVIDAD INTENSA (6-7 x semana)
-                        <input type="radio" name="act-intensa" id="act-intensa" >
+                        <input class="selector" type="radio" name="act" id="act-intensa" >
                     </p>
-                    <br>
-                    <input type="button" value="GUARDAR DATOS" onclick="calcular(peso.value,edad.value ,altura.value)">
+                    <br><br>
+                    <input class="botones" type="button" value="GUARDAR DATOS" onclick="calcular(peso.value,edad.value ,altura.value)">
+                    <input class="botonOculto" type="text" value="BORRAR SELECCIÓN" onclick="borrarSeleccion()">
 
+                    <br>
+                </div>
                     <br><br>
                     <p>TUS KCAL TOTALES A CONSUMIR SON:</p>
-                    <p><input type="text" id="total" name="total"> kcal totales / día</p>
+                    <p><input class="escritura" type="text" id="total" name="total"> kcal totales / día</p>
 
-                    <br><br>
-                </form>
-
-                <h3>- TUS MACRONUTIENTES -</h3>
-                <div class="cajitas">
                     <br>
-                    <input type="button" value="CALCULAR" onclick="macros()">
+                </form>
+                <center><hr></center>
 
+                <div class="cajitas">
+                <h3>- TUS MACRONUTIENTES -</h3>
+                
+                    <br><center>
+                    <input class="botones" type="button" value="CALCULAR" onclick="macros()">
                     <br><br>
-                    <div class="cajita">
+                    <div class="datos">
+                    <div class="cajita"><p>
                         <h4 class="titulo">PROTEÍNAS</h4>
-                        <p><input type="text" id="proteinas" name="proteinas"> kcal totales proteina / día</p>
+                        <input class="escrituramacro"class="escritura" type="text" id="proteinas" name="proteinas"> kcal totales x día</p>
                     </div>
-                    <div class="cajita">
+                    <div class="cajita"><p>
                         <h4 class="titulo">CARBOHIDRATOS</h4>
-                        <p><input type="text" id="carbohidratos" name="carbohidratos"> kcal totales carbohidratos / día</p>
+                        <input class="escrituramacro" class="escritura" type="text" id="carbohidratos" name="carbohidratos"> kcal totales x día</p>
                     </div>
-                    <div class="cajita">
+                    <div class="cajita"><p>
                         <h4 class="titulo">GRASAS</h4>
-                        <p><input type="text" id="grasas" name="grasas"> kcal totales grasas / día</p>
+                        <input class="escrituramacro"class="escritura" type="text" id="grasas" name="grasas"> kcal totales x día</p>
                     </div>
+                    </div>
+                    </center>
                 </div>
 
                 <h3>- EJEMPLOS DE KCAL POR DIETA -</h3>
                 <div class="dietas">
                     <br>
-                    <input type="button" value=" VER KCAL POR DIETAS" onclick="dietas()">
+                    <input class="botones" type="button" value=" VER KCAL POR DIETAS" onclick="dietas()">
 
                     <br><br>
+                    <div class="datos">
                     <div class="dieta">
                         <h4 class="titulo">DEFINICIÓN</h4>
-                        <p><input type="text" id="definicion" name="definicion"> kcal totales / día</p>
+                        <p><input class="escritura" type="text" id="definicion" name="definicion"> kcal totales / día</p>
                     </div>
                     <div class="dieta">
                         <h4 class="titulo">MANTENIMIENTO</h4>
-                        <p><input type="text" id="mantenimiento" name="mantenimiento"> kcal totales / día</p>
+                        <p><input class="escritura" type="text" id="mantenimiento" name="mantenimiento"> kcal totales / día</p>
                     </div>
                     <div class="dieta">
                         <h4 class="titulo">VOLUMEN</h4>
-                        <p><input type="text" id="volumen" name="volumen"> kcal totales / día</p>
+                        <p><input class="escritura" type="text" id="volumen" name="volumen"> kcal totales / día</p>
+                    </div>
                     </div>
                 </div>
-            </div>
+                <br>
+                </div>
+                
+            <br>
+            <br>
     </div>
 
 
