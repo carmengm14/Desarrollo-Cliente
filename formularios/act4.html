@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>El primer script</title>
     <!-- Añandimos el link a nuestro Script de Js-->
-    <script src="act3.js">
+    <script src="act4.js">
     </script>
     <style>
         body {
@@ -27,13 +27,15 @@
     <noscript>
         Hola, tu navegador no tiene habilitado JavaScript, porfavor habilitalo.
     </noscript>
-    <h1>CAMBIAR COLORES</h1>
-        <form id="formulario">
-        <label for="colores">Elige un color </label>
-            <p><input type="radio" name="opcioncolor" value="blue">AZUL
-            <input type="radio" name="opcioncolor" value="green">VERDE
-            <input type="radio" name="opcioncolor" value="red">ROJO</p>
-        </form>
+    <h1>CAMBIAR ESTILO</h1>      
+    <form id="formulario">
+        <input type="checkbox" name="estilos" id="negrita">
+        <label for="colores">NEGRITA</label>
+
+        <input type="checkbox" name="estilos" id="cursiva">
+        <label for="colores">CURSIVA</label>
+
+    </form> 
     <p id="parrafito">Este párrafo cambiará de color con la opción
         seleccionada del cuadro de lista</p>
 </body>
