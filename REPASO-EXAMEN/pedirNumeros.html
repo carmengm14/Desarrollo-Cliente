@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REPASO EXAMEN</title>
+    <script>
+       var numerosFinal = " ";
+        do {
+            var numeros = prompt("Escribe unos numeros");
+            if (numeros < 9 || numeros > 0) {
+                numerosFinal += numeros + " - " ;
+            } else {
+                alert("valor no permitido");
+            }
+        } while (confirm("QUIERES SEGUIR ESCRIBIENDO?") == true);
+
+        alert(numerosFinal);
+
+    </script>
+</head>
+<body>
+    <noscript>
+    TU NAVEGADO NO ES COMPATIBLE CON LAS NECESIDADES DE ESTA PÁGINA, TENDRAS QUE ACTIVAR JAVASCRIPT PARA PODER VERLA CORRECTAMENTE, GRACIAS.
+    </noscript>
+    
+</body>
+</html>
