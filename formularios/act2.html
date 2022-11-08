@@ -1,0 +1,43 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>El primer script</title>
+    <!-- Añandimos el link a nuestro Script de Js-->
+    <script src="act2.js">
+    </script>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        label {
+            display: inline-block;
+            width: 150px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- noscript sirve para cuando el navegador no acepta JavaScript pues sale el mensaje de no habilitado que hemos escrito
+  pero si, si lo tiene habilitado el navegador saldra el Js y este mensaje de nosrcipt se ocultara-->
+    <noscript>
+        Hola, tu navegador no tiene habilitado JavaScript, porfavor habilitalo.
+    </noscript>
+    <h1>CAMBIAR COLORES</h1>
+    
+        <label for="colores">Elige un color </label>
+        <select name="colores" id="colores">
+            <option name="opcioncolor" value="azul">AZUL</option>
+            <option name="opcioncolor" value="verde">VERDE</option>
+            <option name="opcioncolor" value="rojo">ROJO</option>
+        </select>
+
+    <p id="parrafito">Este párrafo cambiará de color con la opción
+        seleccionada del cuadro de lista</p>
+</body>
+
+</html>

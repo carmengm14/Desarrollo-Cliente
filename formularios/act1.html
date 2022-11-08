@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>El primer script</title>
+<!-- Añandimos el link a nuestro Script de Js-->
+<script src="act1.js">
+</script>
+<style>
+  body{
+    font-family: 'Courier New', Courier, monospace;
+  }
+  input:hover , textarea:hover{
+    background-color: gainsboro;
+  }
+  input, textarea{
+    margin-left: 10px;
+    text-align: justify;
+    display: inline-block;
+  }
+  label{
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+  }
+  .nombre{
+    background-color: gainsboro;
+  }
+</style>
+</head>
+
+<body>
+  <!-- noscript sirve para cuando el navegador no acepta JavaScript pues sale el mensaje de no habilitado que hemos escrito
+  pero si, si lo tiene habilitado el navegador saldra el Js y este mensaje de nosrcipt se ocultara-->
+  <noscript>
+    Hola, tu navegador no tiene habilitado JavaScript, porfavor habilitalo.
+  </noscript>
+  <h1>FORMULARIO</h1>
+  <form action="" id="formulario">
+      <label class="nombre" for="nombre">NOMBRE: </label>
+      <input type="text" name="nombre" id="nombre">
+    
+      <br><br>
+
+      <label for="apellidos">APELLIDOS: </label>
+      <input type="text" name="apellidos" id="apellidos">
+
+      <br><br>
+
+      <label for="telefono">TELÉFONO: </label>
+      <input type="text" name="telefono" id="telefono">
+
+      <br><br>
+
+      <label for="dni">DNI: </label>
+      <input type="text" name="dni" id="dni">
+
+      <br><br>
+
+      <label for="edad">EDAD: </label>
+      <input type="text" name="edad" id="edad">
+
+      <br><br>
+        <p>
+            SEXO:
+            <br>
+            <input type="radio" name="hombre" id="hombre" value="hombre">
+            <label for="hombre">Hombre</label>
+            <br>
+            <input type="radio" name="mujer" id="mujer" value="mujer">
+            <label for="mujer">Mujer</label>
+        </p>
+      <br>
+
+      <label for="foto">Incluir mi foto: </label>
+      <input type="file" value="Examinar" accept=".png, .jpg" name="foto" src="" alt="">
+
+      <br><br>
+
+      <input type="checkbox" name="publi" id="publi">
+      <label for="publi">Enviar publicidad</label>
+
+      <br><br>
+
+      <label for="aficion">Elige tu afición favorita </label>
+      <select name="aficion" id="aficion">
+        <option name="opcionaficion" value="musica">musica</option>
+        <option name="opcionaficion" value="lectura">lectura</option>
+        <option name="opcionaficion"value="deporte">deporte</option>
+      </select>
+      <br><br>
+
+      <label for="observaciones">Observaciones</label><br>
+      <textarea name="observaciones" id="observaciones" cols="30" rows="5"></textarea>
+
+      <br><br>
+
+      <input type="submit" value="GUARDAR CAMBIOS" id="guardar">
+      <input type="reset" value="BORRAR DATOS" id="borrar">
+
+  </form>
+</body>
+</html>
