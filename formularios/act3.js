@@ -29,6 +29,7 @@ function cambiarColor(){
         
         if (lista[i].checked) {
             parrafo.style.color = lista[i].value;
+            parrafo.style.backgroundColor = "#c8c8c8";
         }
     }
         
