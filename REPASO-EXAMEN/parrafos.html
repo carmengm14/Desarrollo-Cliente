@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REPASO EXAMEN</title>
+    <script>
+        window.onload = function(){
+            /*
+            var parrafos = document.getElementsByTagName("p");
+            var enlaces = document.getElementsByTagName("a");
+            */
+
+            var b_enlaces = document.getElementById("n_enlaces");
+            b_enlaces.addEventListener('click', numEnlaces);
+
+            var b_ref_enlaces = document.getElementById("ref_enlaces");
+            b_ref_enlaces.addEventListener('click', refEnlaces);
+
+            var b_ref_enlaces_parrafo = document.getElementById("ref_enlaces_parrafo");
+            b_ref_enlaces_parrafo.addEventListener('click', refEnlacesParrafo);
+        }
+       
+       function numEnlaces(){
+        var enlaces = document.getElementsByTagName("a");
+        alert("HAY " + enlaces.length + " ENLACES EN ESTA PÁGINA");
+       }
+
+       function refEnlaces(){
+        var textoEnlaces = "";
+        var enlaces = document.getElementsByTagName("a");
+        for (let i = 0; i < enlaces.length; i++) {
+            textoEnlaces += "ENLACE "+ (i+1) + ": " + enlaces[i].href + "\n";
+        }
+        alert(textoEnlaces);
+       }
+
+       function refEnlacesParrafo(){
+        var textoEnlaces = "";
+        var parrafos = document.getElementsByTagName("p");
+
+        for (let i = 0; i < parrafos.length; i++) {
+            textoEnlaces += "Parrafo " + (i+1) +": \n";
+            var enlaces = parrafos[i].getElementsByTagName("a");
+            for (let j = 0; j < enlaces.length; j++) {
+                textoEnlaces += "\t ENLACE "+ (j+1) + ": " + enlaces[j].href + "\n";                
+            }            
+        }
+        alert(textoEnlaces);
+       }
+
+    </script>
+    <style>
+        button{
+            background-color: aliceblue;
+            display: inline-block;
+            border-color: black;
+            border-radius: 5px;
+            margin:5px;
+            padding: 5px;
+            width: 300px;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+            border-color: black;
+            border-radius: 5px;
+            margin:5px;
+            padding: 5px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <noscript>
+    NO COMPATIBLE CON LAS NECESIDADES DE ESTA PÁGINA, TENDRAS QUE ACTIVAR JAVASCRIPT PARA PODER VERLA CORRECTAMENTE, GRACIAS.    TU NAVEGADO NO ES COMP
+    </noscript>
+
+    <p>
+        <a href="https://google.es">PRIMER ENLACE</a>
+    </p>
+
+    <p>
+        <a href="https://google.es">SEGUNDO ENLACE</a>
+        <a href="https://google.es">TERCERO ENLACE</a>
+
+    </p>
+    <p>
+        <a href="https://google.es">CUARTO ENLACE</a>
+        <a href="https://google.es">QUINTO ENLACE</a>
+        <a href="https://google.es">SEXTO ENLACE</a>
+    </p>
+
+    <button id="n_enlaces">NUMERO DE ENLACES</button> <br><br>
+    <button id="ref_enlaces">REFERENCIA DE ENLACES</button> <br><br>
+    <button id="ref_enlaces_parrafo">REFERENCIA DE ENLACES POR PARRAFO</button>
+
+</body>
+</html>

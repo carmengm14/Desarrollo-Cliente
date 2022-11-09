@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REPASO EXAMEN</title>
+    <script>
+        window.onload = function(){
+            var formulario = document.getElementById("formulario");
+            formulario.addEventListener('submit', validar);
+        }
+       
+       function validar(eventss){
+        var dni = document.getElementById("dni").value;
+        if (dni == null || dni.length != 9 ) {
+            alert("EL DNI TIENE QUE TENER 9 CARACTERES");
+            event.preventDefault();
+        }else{
+            alert("CLAVE VALIDA");
+            this.submit();
+        }
+       }
+    </script>
+</head>
+<body>
+    <noscript>
+ATIBLE CON LAS NECESIDADES DE ESTA PÁGINA, TENDRAS QUE ACTIVAR JAVASCRIPT PARA PODER VERLA CORRECTAMENTE, GRACIAS.    TU NAVEGADO NO ES COMP
+    </noscript>
+   <form id="formulario">
+        <label for="dni">INTRODUCE EL DNI: </label>
+        <input type="text" name="dni" id="dni">
+
+        <input id="boton" type="submit" value="ENVIAR">
+   </form>
+    
+</body>
+</html>
