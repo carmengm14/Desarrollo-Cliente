@@ -1,62 +1,61 @@
 window.onload = function() {
-  var radioGroup = document.getElementsByName("hobby");
-  var btnSubmit = document.getElementById("btnSubmit");
+  var elemento = document.getElementsByName("aficion");
+  var btnEnviar = document.getElementById("btnEnviar");
 
-  for (let i = 0; i < radioGroup.length; i++) {
-    radioGroup[i].addEventListener("change", function() {
-      checkMusic(radioGroup);
+  for (let i = 0; i < elemento.length; i++) {
+    elemento[i].addEventListener("change", function() {
+      checkMusica(elemento);
     })
-  }
+  }  
 
-  btnSubmit.addEventListener("click", function() {
-    var inputFecha = document.getElementById("fechaID");
-    var inputMusico = document.getElementById("musicoID");
-    var inputAlbum = document.getElementById("albumID");
-    var lastCaract = inputFecha.value.substr(inputFecha.value.length - 4);
-
+  btnEnviar.addEventListener("click", function() {
+    var Fecha = document.getElementById("fechaID");
+    var Musico = document.getElementById("musicoID");
+    var Album = document.getElementById("albumID");
+    var anyo = Fecha.value.substr(Fecha.value.length - 4);
     if (checkDate()) {
       if (event.preventDefault) {
         alert("Formato de fecha no valido")
-        inputFecha.focus();
+        Fecha.focus();
         event.preventDefault();
       } else {
         alert("Formato de fecha no valido")
-        inputFecha.focus();
+        Fecha.focus();
         event.returnValue = false;
       }
     } else {
-      alert("El músico " + inputMusico.value + " compuso su album " + inputAlbum.value + " en el año " + lastCaract + ". Tuvo un gran exito")
+      alert("El artista '" + Musico.value + "' compuso su album '" + Album.value + "' en el año " + anyo + ". Tuvo un gran exito")
     }
   })
 }
 
-function checkMusic(radioGroup) {
-  for (let i = 0; i < radioGroup.length; i++) {
-    if (radioGroup[i].checked) {
-      if (radioGroup[i].value == "musica") {
-        createCheckBoxMusic();
+function checkMusica(elemento) {
+  for (let i = 0; i < elemento.length; i++) {
+    if (elemento[i].checked) {
+      if (elemento[i].value == "musica") {
+        crearCheckBoxMusica();
       } else {
-        alert(radioGroup[i].value)
+        alert(elemento[i].value)
       }
     }
   }
 }
 
-function createCheckBoxMusic() {
-  var form = document.getElementById("formID");
+function crearCheckBoxMusica() {
+  var form = document.getElementById("formulario");
 
-  var checkbox = document.createElement("INPUT");
+  var checkbox = document.createElement("input");
   checkbox.setAttribute("type", "checkbox");
   checkbox.value = "Seleccion años 80"
 
-  var label = document.createElement("LABEL"); 
+  var label = document.createElement("label"); 
   var textNode = document.createTextNode("Seleccion musica años 80");
   label.setAttribute("for", "musicaSeleccion")
   label.appendChild(textNode);
 
   checkbox.addEventListener('change', function() {
-    showMessafeCheckBox(checkbox);
-    createFields();
+    MensajeCheckBox(checkbox);
+    crearCampos();
   })
 
   form.appendChild(checkbox);
@@ -64,69 +63,74 @@ function createCheckBoxMusic() {
   form.appendChild(document.createElement("BR"));
 }
 
-function createFields() {
-  createFieldMusic()
-  createFieldAlbum()
-  createFieldFecha()
+function crearCampos() {
+  crearCampoMusica()
+  crearCampoAlbum()
+  crearCampoFecha()
 }
 
-function createFieldMusic() {
-  var form = document.getElementById("formID");
+function crearCampoMusica() {
+  var form = document.getElementById("formulario");
 
-  var labelMusico = document.createElement("LABEL"); 
+  var labelMusico = document.createElement("label"); 
   var textNodeMusico = document.createTextNode("MUSICO");
   labelMusico.setAttribute("for", "MUSICO")
   labelMusico.appendChild(textNodeMusico);
 
-  var inputMusico = document.createElement("INPUT");
-  inputMusico.setAttribute("type", "text");
-  inputMusico.setAttribute("id", "musicoID");
+  var Musico = document.createElement("input");
+  Musico.setAttribute("type", "text");
+  Musico.setAttribute("id", "musicoID");
+
+  form.appendChild(document.createElement("br"));
 
   form.appendChild(labelMusico);
-  form.appendChild(inputMusico);
-  form.appendChild(document.createElement("BR"));
+  form.appendChild(Musico);
+  form.appendChild(document.createElement("br"));
+  form.appendChild(document.createElement("br"));
+
 }
 
-function createFieldAlbum() {
-  var labelAlbum = document.createElement("LABEL"); 
+function crearCampoAlbum() {
+  var labelAlbum = document.createElement("label"); 
   var textNodeAlbum = document.createTextNode("ALBUM");
   labelAlbum.setAttribute("for", "ALBUM")
   labelAlbum.appendChild(textNodeAlbum);
 
-  var inputAlbum = document.createElement("INPUT");
-  inputAlbum.setAttribute("type", "text");
-  inputAlbum.setAttribute("id", "albumID");
+  var Album = document.createElement("input");
+  Album.setAttribute("type", "text");
+  Album.setAttribute("id", "albumID");
 
   form.appendChild(labelAlbum);
-  form.appendChild(inputAlbum);
-  form.appendChild(document.createElement("BR"));
+  form.appendChild(Album);
+  form.appendChild(document.createElement("br"));
+  form.appendChild(document.createElement("br"));
 }
 
-function createFieldFecha() {
-  var labelFecha = document.createElement("LABEL"); 
+function crearCampoFecha() {
+  var labelFecha = document.createElement("label"); 
   var textNodeFecha = document.createTextNode("FECHA");
   labelFecha.setAttribute("for", "FECHA")
   labelFecha.appendChild(textNodeFecha);
 
-  var InputFecha = document.createElement("INPUT");
-  InputFecha.setAttribute("type", "text");
-  InputFecha.setAttribute("id", "fechaID");
+  var Fecha = document.createElement("input");
+  Fecha.setAttribute("type", "text");
+  Fecha.setAttribute("id", "fechaID");
 
   form.appendChild(labelFecha);
-  form.appendChild(InputFecha);
-  form.appendChild(document.createElement("BR"));
+  form.appendChild(Fecha);
+  form.appendChild(document.createElement("br"));
 }
 
 function checkDate() {
-  var inputFecha = document.getElementById("fechaID");
+  var Fecha = document.getElementById("fechaID");
 
-  if (!(/^([0][1-9]|[12][0-9]|3[01])(\/|-)([0][1-9]|[1][0-2])\2(\d{4})$/.test(inputFecha.value))) { // Expresion regular para comprobar si es mas de 9 numeros
+  if (!(/^([0][1-9]|[12][0-9]|3[01])(\/|-)([0][1-9]|[1][0-2])\2(\d{4})$/.test(Fecha.value))) { // Expresion regular para comprobar si es mas de 9 numeros
     return true;
   }
   return false;
 }
 
-function showMessafeCheckBox(checkbox) {
+function MensajeCheckBox(checkbox) {
   if (checkbox.checked) {
     alert("Has hecho una buena eleccion")
   } else {
