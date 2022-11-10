@@ -1,20 +1,20 @@
 window.onload = function() {
-  var radioGroup = document.getElementsByName("hobby");
+  var elemento = document.getElementsByName("aficion");
 
-  for (let i = 0; i < radioGroup.length; i++) {
-    radioGroup[i].addEventListener("change", function() {
-      checkMusic(radioGroup);
+  for (let i = 0; i < elemento.length; i++) {
+    elemento[i].addEventListener("change", function() {
+      checkMusic(elemento);
     })
   }
 }
 
-function checkMusic(radioGroup) {
-  for (let i = 0; i < radioGroup.length; i++) {
-    if (radioGroup[i].checked) {
-      if (radioGroup[i].value == "musica") {
+function checkMusic(elemento) {
+  for (let i = 0; i < elemento.length; i++) {
+    if (elemento[i].checked) {
+      if (elemento[i].value == "musica") {
         createCheckBoxMusic();
       } else {
-        alert(radioGroup[i].value)
+        alert(elemento[i].value)
       }
     }
   }
@@ -42,6 +42,6 @@ function showMessafeCheckBox(checkbox) {
   if (checkbox.checked) {
     alert("Has hecho una buena eleccion")
   } else {
-    alert("Has deseleccionado")
+    alert("Has deseleccionado los años 80")
   }
 }
