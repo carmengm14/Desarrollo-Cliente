@@ -14,5 +14,5 @@ var contadorSegPlato = 0;
 
 
 function resultado(){
-    alert("TIENES SELECCIONADOS " + contadorEntrantes + " ENTRANTES Y "+ contadorSegPlato + " SEGUNDOS PLATO, TU PRECIO FINAL ES DE = " + cuenta + 5 );
+    alert("TIENES SELECCIONADOS " + contadorEntrantes + " ENTRANTES Y "+ contadorSegPlato + " SEGUNDOS PLATO, TU PRECIO FINAL ES DE = " + (cuenta + 5 ));
 }

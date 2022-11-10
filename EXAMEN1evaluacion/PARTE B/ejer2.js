@@ -17,5 +17,5 @@ var nombres= " ";
 
 
 function resultado(){
-    alert("TIENES SELECCIONADOS " + contadorEntrantes + " ENTRANTES Y "+ contadorSegPlato + " SEGUNDOS PLATO\n TU PRECIO FINAL ES DE = " + cuenta + 5 + "\n LOS PLATOS SELECCIONADOS SON = NADA" );
+    alert("TIENES SELECCIONADOS " + contadorEntrantes + " ENTRANTES Y "+ contadorSegPlato + " SEGUNDOS PLATO\n TU PRECIO FINAL ES DE = " + (cuenta + 5) + "\n LOS PLATOS SELECCIONADOS SON = " + nombres );
 }

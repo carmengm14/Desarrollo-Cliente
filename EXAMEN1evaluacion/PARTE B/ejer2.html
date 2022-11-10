@@ -17,12 +17,12 @@
     <h1>MENÚ NAVIDEÑO</h1>
     <form id = "formulario">    
         <label for="entrantes">ENTRANTES</label><br>
-            <p> <input onchange="sumarEntrantes()" name="entrantes" type="checkbox" value="ensalada"> ENSALADA ESPECIAL</p>
-            <p> <input onchange="sumarEntrantes()" name="entrantes" type="checkbox" value="jamon">JAMON IBERICO</p>
+            <p> <input onchange="sumarEntrantes(this)" name="entrantes" type="checkbox" value="ensalada"> ENSALADA ESPECIAL</p>
+            <p> <input onchange="sumarEntrantes(this)" name="entrantes" type="checkbox" value="jamon">JAMON IBERICO</p>
 
         <label for="s_plato"></label><br>
-            <p><input onchange="sumarSegPlato()" type="radio" name="s_plato" value="10">PAVO TRUFADO</p>
-            <p><input onchange="sumarSegPlato()" type="radio" name="s_palo" value="10">SALMÓN AL CAVA</p>
+            <p><input onchange="sumarSegPlato(this)" type="radio" name="s_plato" value="pavo">PAVO TRUFADO</p>
+            <p><input onchange="sumarSegPlato(this)" type="radio" name="s_palo" value="salmon">SALMÓN AL CAVA</p>
 
         <br>
         <p>POSTRE DE LA CASA (5€)</p>
