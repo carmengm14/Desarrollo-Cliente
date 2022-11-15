@@ -28,11 +28,16 @@
 }
 */
 verificarCLAVE = function(a){ 
-    var valoresCorrectos = /^[A-Za-z]{3}[0-9]{3}$/;
-    if(valoresCorrectos.test(a)){
-        alert("CORRECTO");
-    }else{
-        valorDeElemento.preventDefault();
+    if (a.length != 4) {
         alert("INCORRECTO")
-    }
+    }else{
+        var valoresCorrectos = /^[A-Za-z]{3}[0-9]{3}$/;
+        if(valoresCorrectos.test(a)){
+            alert("CORRECTO");
+            a.submit();
+        }else{
+            valorDeElemento.preventDefault();
+            alert("INCORRECTO")
+        }
+}
 }
