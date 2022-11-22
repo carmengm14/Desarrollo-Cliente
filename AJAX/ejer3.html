@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Ejemplo con Ajax </title>
+<script type = "text/javascript">
+window.onload = function(){
+    var imagen1 = document.getElementById('imagen1')
+    imagen1.addEventListener('click', cambiarImagen)
+
+    var imagen2 = document.getElementById('imagen2')
+    imagen2.addEventListener('click', cambiarImagen)
+}
+var XMLHttpRequestObject = false;
+XMLHttpRequestObject = new XMLHttpRequest();
+
+function cambiarImagen() {
+    if(XMLHttpRequestObject){
+        XMLHttpRequestObject.open("GET", this.value)
+        XMLHttpRequestObject.onreadystatechange = function(){
+            if (XMLHttpRequestObject.readyState == 4 &&
+                XMLHttpRequestObject.status == 200) {
+                var imagen = document.getElementById('imagen')
+                imagen.src= XMLHttpRequestObject.responseText
+            }
+        }
+        XMLHttpRequestObject.send(null);
+    }
+}
+</script>
+</head>
+<body>
+<H1>CAMBIAR IMAGEN CON  AJAX</H1>
+    <button id="imagen1" value="imagen1.txt">IMAGEN 1</button><br><br>
+    <button id="imagen2" value="imagen2.txt">IMAGEN 2</button><br><br>
+    <img id="imagen" src="">
+</body>
+</html>
