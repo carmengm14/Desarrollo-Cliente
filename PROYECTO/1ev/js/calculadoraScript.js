@@ -1,13 +1,22 @@
 //calculadora
 
+var nombre = prompt("Para una experiencia aún más personalizada, escribe tu nombre a continuación, gracias (Opcional)");
 //validar numeros
 window.onload = function () {
    
    document.getElementById("peso").onkeypress = validarFormulario;
    document.getElementById("edad").onkeypress = validarFormulario;
    document.getElementById("altura").onkeypress = validarFormulario;
-   
+
+    
+    var parrafo = document.createElement("p");
+    var texto = document.createTextNode("GRACIAS " + nombre + " POR USAR LA CALCULADORA DE GYM Y JAM\n");
+    parrafo.appendChild(texto);
+    if (nombre != "") {
+        document.getElementById('calculadora').appendChild(parrafo);
+    }
 }
+   
 
     function validarFormulario(event) {
         var elemento = event;
@@ -69,7 +78,9 @@ window.onload = function () {
 
         var volumen = (totales + 500);
         document.getElementById("volumen").value = volumen;
-
+        
+       
+        
     }
 
     function borrarSeleccion(){
