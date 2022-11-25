@@ -9,7 +9,7 @@ XMLHttpRequestObject = new XMLHttpRequest();
 XMLHttpRequestObject = new ActiveXObject("Microsoft.XMLHTTP");
 }
 function sacardatos(datos, idDiv){
-if(XMLHttpRequestObject) {s
+if(XMLHttpRequestObject) {
 var objeto = document.getElementById(idDiv);
 XMLHttpRequestObject.open("GET", datos);
 XMLHttpRequestObject.onreadystatechange = function(){
