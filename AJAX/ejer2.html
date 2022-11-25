@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Ejemplo con Ajax </title>
+<script type = "text/javascript">
+window.onload = function(){
+    var boton = document.getElementById('pagContent');
+    boton.addEventListener('click', cargarpagContent);
+
+    var boton2 = document.getElementById('pagBienvenida');
+    boton2.addEventListener('click', cargarpagContent);
+}
+
+var XMLHttpRequestObject = false;
+XMLHttpRequestObject = new XMLHttpRequest();
+
+function cargarpagContent(){
+    if(XMLHttpRequestObject){
+        var contenido = document.getElementById('carga');
+        XMLHttpRequestObject.open("GET", this.value)
+        XMLHttpRequestObject.onreadystatechange = function(){
+            if (XMLHttpRequestObject.readyState == 4 &&
+                XMLHttpRequestObject.status == 200) {
+                contenido.innerHTML = XMLHttpRequestObject.responseText;
+            }
+        }
+        XMLHttpRequestObject.send(null);
+    }
+}
+</script>
+</head>
+<body>
+<H1>CARGAR HTML CON  AJAX</H1>
+    <button id="pagContent" value="pagContent.html" >CONTENIDO</button><br><br>
+    <button id="pagBienvenida" value="pagBienvenida.html" >BIENVENIDA</button>
+    <div id="carga" ></div>
+</body>
+</html>
