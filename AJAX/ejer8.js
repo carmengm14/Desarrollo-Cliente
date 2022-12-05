@@ -24,4 +24,8 @@ function sacardatos(){
 
 window.onload = function () {
     document.getElementById('boton').onclick = sacardatos;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 584eacadb0e80be10115c8bc90d8d30bcfe87ee2
