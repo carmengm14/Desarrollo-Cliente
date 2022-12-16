@@ -23,7 +23,9 @@
     }
 
     //
-    echo "CONEXIÓN SATISFACTORIA";
+    echo " ";
+    echo "______________________ <br> CONEXIÓN SATISFACTORIA";
+    echo " ";
     //Close database
     closeDB($database);
 
@@ -47,4 +49,3 @@
     }
     
 ?>
-Footer
