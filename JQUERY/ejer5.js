@@ -3,6 +3,7 @@ $(document).ready(function(e) {
         $("#parrafo").addClass("tamanyo");
     })
     $("#parrafo").mouseout(function() {
-        $("#parrafo").addClass("tamanyoNormal");
+        $("#parrafo").removeClass("tamanyo");
+
     })
 })
