@@ -1,0 +1,181 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>BINGO</title>
+<style>
+    body{
+        background-image: url(./fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 50px;
+    }
+    .numeros{
+        border-radius: 20px;
+        padding: 20px;
+        background-color: rgb(0, 0, 0, 0.8);
+        color: white;
+        border-width: 3px;
+        font-size: 50px;
+        width: 1400px;
+        height: 350px;
+    }
+    .numerosTotal{
+        border-radius: 20px;
+        padding: 20px;
+        background-color: rgb(0, 0, 0, 0.8);
+        color: white;
+        border-width: 3px;
+        font-size: 50px;
+        width: 1400px;
+        height: fit-content;  
+    }
+    .boton{
+        border-radius: 500px;
+        padding: 35px;
+        width: 300px;
+        border-width: 3px;
+        font-size: 30px;
+        border: linear-gradient(180deg, #00ff1a 0%, #080ce5 100%);
+        background: linear-gradient(180deg, #00ff1a 0%, #080ce5 100%);
+        color: white;
+    }
+    .boton:hover{
+        border-radius: 500px;
+        padding: 35px;
+        cursor: pointer;
+        width: 300px;
+        border-width: 3px;
+        font-size: 30px;
+        background: linear-gradient(180deg, #080ce5 0%, #00ff1a 100%);
+        color: white;
+    }
+
+    .boton2{
+        border-radius: 30px;
+        padding: 15px;
+        width: 150px;
+        border-width: 3px;
+        font-size: 10px;
+        border: linear-gradient(180deg, #080ce5 0%, #00ff1a 100%);
+        background: linear-gradient(180deg, #080ce5 0%, #00ff1a 100%);
+        color: white;
+    }
+    .boton2:hover{
+        border-radius: 30px;
+        padding: 15px;
+        cursor: pointer;
+        width: 150px;
+        border-width: 3px;
+        font-size: 10px;
+        background: linear-gradient(180deg, #00ff1a 0%, #080ce5 100%);
+        color: white;
+    }
+    h1{
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+        color: white;
+    }
+</style>
+
+
+<script type="text/javascript">
+    window.onload= function(){
+        var elemento = document.getElementById("botonBingo");
+        elemento.addEventListener("click", sacarNumeros());
+    }
+    var nums = [];
+    var numerosLinea = [];
+    var cont = 0;
+    var last = 1; // last operacion
+    var maxSize = 90;
+
+    function sacarNumeros(){
+        
+        var seen = [];
+        
+        for( i = 0 ; i < maxSize ; i++ ){
+            random = Math.ceil(Math.random()*maxSize);
+            
+            if( !nums.includes( random ) ){
+                nums.push(random);
+               //console.log("Añadir, llevo " + nums.length);
+               console.log(nums)
+            }else{
+                i--;
+            }
+        }
+    }
+
+    function nuevoNumero(){
+        if( cont == maxSize ){ // Mostrar el último 7 13 , cont = 0
+            document.getElementById("numerosTotal").value = nums;
+            numerosOrdenados = nums.sort(function(a, b){return a - b});
+            document.getElementById("numerosTotalOrdenado").value = numerosOrdenados;
+        }else{
+            if( last == -1 )
+                cont++;
+
+            num = nums[cont];
+            numerosLinea[cont] = num;
+            document.getElementById("numeros").value = num;
+            last = 1
+            cont += 1;
+        }
+    }
+    function linea(){
+        listaDesordenada = [].concat(numerosLinea);
+        listaOrdenada = [].concat(numerosLinea);
+        listaOrdenada.sort(function(a, b){return a - b});
+        document.getElementById("numerosLinea").value = listaDesordenada;
+        document.getElementById("numerosLineaOrdenado").value = listaOrdenada;
+
+    }
+
+    function bingo(){    
+        document.getElementById("numerosTotal").value = nums;        
+        numerosOrdenados = nums.sort(function(a, b){return a - b});
+        document.getElementById("numerosTotalOrdenado").value = numerosOrdenados;
+    }
+
+    function antiguoNumero(){
+        if( last == 1 )
+            cont -= 2;
+        else{
+            cont -= 1;
+        }
+        if( cont < 0 ){
+            document.getElementById("numeros").value = "No hay anterior";
+        }else{
+            document.getElementById("numeros").value = nums[ cont ];
+        }
+        
+        last = -1;
+    }
+
+</script>
+
+</head>
+<body>
+<center>
+<p><input type="button"  class="boton" value="BINGO" id="botonBingo" onclick="bingo()" />
+    <input type="button" class="boton2" name="Nuevo Número" value = "NUEVO NÚMERO" id="" onclick="nuevoNumero()">
+    <input type="button" class="boton2" name="Anterior Número" value = "NÚMERO ANTERIOR" id="" onclick="antiguoNumero()">
+    <input type="button" class="boton2" name="Linea" value = "LINEA" id="" onclick="linea()">
+    <input type="button" class="boton2" value="NUEVO JUEGO" onclick="location.reload()">
+
+</p>
+<!--<input type="text" name="numeros" id="numeros" class="numeros">-->
+<textarea name="numeros" id="numeros" class="numeros" cols="50" rows="50" style="font-size: 250px;text-align: center; padding-top: 50px;"></textarea></center>
+<h1>LINEA DESORDENADA</h1>
+<textarea name="numeros" id="numerosLinea" class="numerosTotal" cols="50" rows="4" style="font-size: 30px; margin-top: 10px;text-align: center;"></textarea></center>
+<h1>LINEA ORDENADA</h1>
+<textarea name="numeros" id="numerosLineaOrdenado" class="numerosTotal" cols="50" rows="4" style="font-size: 30px; margin-top: 10px;text-align: center;"></textarea></center>
+<h1>BINGO DESORDENADO</h1>
+<textarea name="numeros" id="numerosTotal" class="numerosTotal" cols="50" rows="4" style="font-size: 30px; margin-top: 10px;text-align: center;"></textarea></center>
+<h1>BINGO ORDENADO</h1>
+<textarea name="numeros" id="numerosTotalOrdenado" class="numerosTotal" cols="50" rows="4" style="font-size: 30px; margin-top: 10px;text-align: center;"></textarea></center>
+
+</body>
+</html>
