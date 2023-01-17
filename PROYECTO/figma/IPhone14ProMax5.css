@@ -1,0 +1,516 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.group-child80,
+.group-child81 {
+  position: absolute;
+  top: 235px;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--white);
+  box-shadow: var(--sombra-contacto);
+  width: 403px;
+  height: 208px;
+}
+.group-child81 {
+  top: 465px;
+  left: 2px;
+  height: 238px;
+}
+.group-child82 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xs);
+  width: 403px;
+  height: 208px;
+  object-fit: cover;
+}
+.nuevas-clases-disponibles {
+  position: absolute;
+  top: 255px;
+  left: 36px;
+  font-weight: 200;
+}
+.abrimos-las-incripciones {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.se-han-aadido {
+  margin: 0;
+}
+.abrimos-las-incripciones-container {
+  position: absolute;
+  top: 308px;
+  left: 36px;
+  font-size: var(--font-size-base);
+  font-weight: 200;
+  text-align: justify;
+  display: inline-block;
+  width: 335px;
+}
+.group-child83 {
+  position: absolute;
+  top: 287px;
+  left: 36px;
+  background-color: var(--dark-blue);
+  width: 163px;
+  height: 2px;
+}
+.comentarios {
+  position: absolute;
+  top: 476px;
+  left: 36px;
+  font-weight: 200;
+}
+.group-child84,
+.group-child85 {
+  position: absolute;
+  top: 505px;
+  left: 36px;
+  background-color: var(--dark-blue);
+  width: 163px;
+  height: 2px;
+}
+.group-child85 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xl);
+  background-color: var(--white);
+  box-shadow: var(--sombra-contacto);
+  width: 363px;
+  height: 30px;
+}
+.email2 {
+  position: absolute;
+  top: 6px;
+  left: 20px;
+  background: linear-gradient(#9c9b9b, #9c9b9b), #9c9b9b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.group-child86 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xs);
+  background-color: var(--white);
+  box-shadow: var(--sombra-contacto);
+  width: 363px;
+  height: 90px;
+}
+.comentario {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  background: linear-gradient(#9c9b9b, #9c9b9b), #9c9b9b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.group-child87,
+.rectangle-parent72 {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 363px;
+  height: 90px;
+}
+.group-child87 {
+  top: 0;
+  border-radius: var(--br-2xs);
+  background-color: var(--orange);
+  box-shadow: var(--sombra-contacto);
+  width: 72px;
+  height: 28px;
+}
+.enviar1 {
+  position: absolute;
+  top: 5px;
+  left: 11px;
+}
+.rectangle-parent73 {
+  position: absolute;
+  top: 146px;
+  left: 0;
+  width: 72px;
+  height: 28px;
+}
+.rectangle-parent71 {
+  position: absolute;
+  top: 519px;
+  left: 20px;
+  width: 363px;
+  height: 174px;
+  font-size: var(--font-size-xs);
+  color: var(--white);
+}
+.rectangle-parent70 {
+  position: absolute;
+  top: 189px;
+  left: 13px;
+  width: 405px;
+  height: 703px;
+  font-size: var(--font-size-lg);
+  color: var(--dark-blue);
+}
+.anterior-entrada,
+.publicado-el-18 {
+  position: absolute;
+  top: 902px;
+  left: 97px;
+  background: linear-gradient(#9c9b9b, #9c9b9b), #9c9b9b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.anterior-entrada {
+  top: 950px;
+  left: 67px;
+}
+.group-child88 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--dark-blue);
+  box-shadow: 0-15px 17px rgba(0, 0, 0, 0.25);
+  width: 430px;
+  height: 257px;
+}
+.group-child89 {
+  position: absolute;
+  top: 58px;
+  left: 30px;
+  width: 158px;
+  height: 150px;
+  object-fit: cover;
+}
+.gym-y-jam20,
+.horario8 {
+  position: absolute;
+  top: 34px;
+  left: 75px;
+  text-align: left;
+}
+.horario8 {
+  left: 281px;
+}
+.lunes-a-viernes-container8,
+.ubicacin8 {
+  position: absolute;
+  top: 58px;
+  left: 242px;
+}
+.ubicacin8 {
+  top: 163px;
+  left: 271px;
+  text-align: left;
+}
+.ronda-magdalena-n158 {
+  position: absolute;
+  top: 184px;
+  left: 242px;
+  text-decoration: underline;
+  font-weight: 300;
+}
+.todos-los-derechos8 {
+  position: absolute;
+  top: 224px;
+  left: 110px;
+  font-weight: 300;
+}
+.privacy-politics8 {
+  text-decoration: underline;
+}
+.privacy-politics-cookie-container8 {
+  position: absolute;
+  top: 239px;
+  left: 126px;
+  font-weight: 300;
+}
+.rectangle-parent74 {
+  position: absolute;
+  top: 1019px;
+  left: 0;
+  width: 430px;
+  height: 257px;
+  text-align: center;
+  font-size: var(--font-size-2xs);
+}
+.iphone-14-pro-max-5-child,
+.iphone-14-pro-max-5-item {
+  position: absolute;
+  height: 2.54%;
+  width: 7.83%;
+  top: 73.9%;
+  right: 87.52%;
+  bottom: 23.56%;
+  left: 4.65%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iphone-14-pro-max-5-item {
+  right: 85.89%;
+  left: 6.28%;
+}
+.siguiente-entrada {
+  position: absolute;
+  top: 950px;
+  left: 262px;
+  background: linear-gradient(#9c9b9b, #9c9b9b), #9c9b9b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.group-icon,
+.iphone-14-pro-max-5-child1,
+.iphone-14-pro-max-5-inner {
+  position: absolute;
+  height: 2.54%;
+  width: 7.83%;
+  top: 73.9%;
+  right: 2.64%;
+  bottom: 23.56%;
+  left: 89.53%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-icon,
+.iphone-14-pro-max-5-child1 {
+  right: 4.03%;
+  left: 88.14%;
+}
+.iphone-14-pro-max-5-child1 {
+  height: 1.6%;
+  width: 4.92%;
+  top: 11.83%;
+  right: 89.73%;
+  bottom: 86.57%;
+  left: 5.35%;
+  cursor: pointer;
+}
+.atrs2 {
+  position: absolute;
+  top: 156px;
+  left: 49px;
+  background: linear-gradient(#9c9b9b, #9c9b9b), #9c9b9b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+.instance-child6 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-sm) var(--br-sm);
+  background-color: var(--dark-blue);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
+}
+.gym-y-jam21 {
+  position: absolute;
+  top: 49.65%;
+  left: 29.07%;
+  cursor: pointer;
+}
+.component-1-child13,
+.component-1-child14 {
+  position: absolute;
+  height: 16.67%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 83.33%;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--white);
+}
+.component-1-child14 {
+  width: 55.56%;
+  top: 33.33%;
+  right: 44.44%;
+  bottom: 50%;
+}
+.component-18,
+.tabler-icon-user-circle12 {
+  position: absolute;
+  height: 13.29%;
+  width: 11.4%;
+  top: 58.04%;
+  right: 82.33%;
+  bottom: 28.67%;
+  left: 6.28%;
+}
+.tabler-icon-user-circle12 {
+  height: 34.27%;
+  top: 43.36%;
+  right: 6.28%;
+  bottom: 22.38%;
+  left: 82.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangle-parent75 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 430px;
+  height: 143px;
+  font-size: var(--font-size-2xl);
+}
+.iphone-14-pro-max-5 {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 1276px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--white);
+  font-family: var(--font-inter);
+}
+.gym-y-jam1 {
+  position: absolute;
+  top: 273px;
+  left: 104px;
+  cursor: pointer;
+}
+.inicio1,
+.novedades1 {
+  font-weight: 300;
+  cursor: pointer;
+}
+.inicio1 {
+  position: relative;
+}
+.novedades1 {
+  text-decoration: underline;
+}
+.calculadora3,
+.contacto1,
+.novedades1 {
+  position: relative;
+}
+.contacto1 {
+  font-weight: 300;
+  color: var(--orange);
+  cursor: pointer;
+}
+.inicio-group {
+  position: absolute;
+  top: 363px;
+  left: 74px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.facebook-2-icon1,
+.instagram-2-icon1,
+.whatsapp-icon1 {
+  position: absolute;
+  top: 728px;
+  left: 281px;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+}
+.instagram-2-icon1,
+.whatsapp-icon1 {
+  left: 75px;
+}
+.whatsapp-icon1 {
+  top: 729px;
+  left: 178px;
+}
+.infogymjamcom1 {
+  position: absolute;
+  top: 878px;
+  left: 92px;
+  font-size: var(--font-size-xl);
+  font-weight: 200;
+}
+.menu-novedades-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-5xs) var(--br-5xs);
+  background-color: var(--color-red-200);
+  width: 430px;
+  height: 214px;
+}
+.tabler-icon-arrow-badge-down1,
+.tabler-icon-user-circle1 {
+  position: absolute;
+  top: 19px;
+  left: 312px;
+  width: 76px;
+  height: 76px;
+  overflow: hidden;
+}
+.tabler-icon-user-circle1 {
+  top: 7px;
+  left: 30px;
+  width: 101px;
+  height: 101px;
+}
+.aos-tjoven1,
+.carmen-garcia-monreal1 {
+  position: absolute;
+  top: 108px;
+  left: 43px;
+  font-weight: 300;
+}
+.aos-tjoven1 {
+  top: 137px;
+}
+.tabler-icon-arrow-badge-down-group {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 430px;
+  height: 213px;
+  overflow: hidden;
+  font-size: var(--font-size-xl);
+  color: var(--dark-blue);
+}
+.shopping-cart-basket-21 {
+  position: absolute;
+  top: 814px;
+  left: 178px;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.menu-novedades {
+  position: relative;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(46, 41, 182, 0.95),
+    rgba(25, 22, 122, 0.95) 60.64%
+  );
+  width: 389px;
+  height: 932px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--white);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,465 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.instance-child1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-sm) var(--br-sm);
+  background-color: var(--dark-blue);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
+}
+.gym-y-jam10 {
+  position: absolute;
+  top: 49.65%;
+  left: 29.07%;
+  cursor: pointer;
+}
+.component-1-child3,
+.component-1-child4 {
+  position: absolute;
+  height: 16.67%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 83.33%;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--white);
+}
+.component-1-child4 {
+  width: 55.56%;
+  top: 33.33%;
+  right: 44.44%;
+  bottom: 50%;
+}
+.component-13,
+.tabler-icon-user-circle7 {
+  position: absolute;
+  height: 13.29%;
+  width: 11.4%;
+  top: 58.04%;
+  right: 82.33%;
+  bottom: 28.67%;
+  left: 6.28%;
+}
+.tabler-icon-user-circle7 {
+  height: 34.27%;
+  top: 43.36%;
+  right: 6.28%;
+  bottom: 22.38%;
+  left: 82.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangle-parent24 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 430px;
+  height: 143px;
+  color: var(--white);
+}
+.suplementacin {
+  position: absolute;
+  height: 2.69%;
+  width: 67.91%;
+  top: 23.66%;
+  left: 16.05%;
+  display: inline-block;
+  cursor: pointer;
+}
+.imprescindibles,
+.tienda {
+  position: absolute;
+  top: 14%;
+  left: 36.51%;
+  cursor: pointer;
+}
+.imprescindibles {
+  height: 2.95%;
+  width: 65.81%;
+  top: 51.76%;
+  left: 17.21%;
+  display: inline-block;
+}
+.group-child25 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--dark-blue);
+  box-shadow: 0-15px 17px rgba(0, 0, 0, 0.25);
+  width: 430px;
+  height: 257px;
+}
+.group-child26 {
+  position: absolute;
+  top: 58px;
+  left: 30px;
+  width: 158px;
+  height: 150px;
+  object-fit: cover;
+}
+.gym-y-jam11,
+.horario3 {
+  position: absolute;
+  top: 34px;
+  left: 75px;
+  text-align: left;
+}
+.horario3 {
+  left: 281px;
+}
+.lunes-a-viernes3 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.p11 {
+  margin: 0;
+}
+.lunes-a-viernes-container3,
+.ubicacin3 {
+  position: absolute;
+  top: 58px;
+  left: 242px;
+}
+.ubicacin3 {
+  top: 163px;
+  left: 271px;
+  text-align: left;
+}
+.ronda-magdalena-n153 {
+  position: absolute;
+  top: 184px;
+  left: 242px;
+  text-decoration: underline;
+  font-weight: 300;
+}
+.todos-los-derechos3 {
+  position: absolute;
+  top: 224px;
+  left: 110px;
+  font-weight: 300;
+}
+.privacy-politics3 {
+  text-decoration: underline;
+}
+.privacy-politics-cookie-container3 {
+  position: absolute;
+  top: 239px;
+  left: 126px;
+  font-weight: 300;
+}
+.rectangle-parent25 {
+  position: absolute;
+  top: 1217px;
+  left: 0;
+  width: 430px;
+  height: 257px;
+  text-align: center;
+  font-size: var(--font-size-2xs);
+  color: var(--white);
+}
+.iphone-14-pro-max-10-child {
+  position: absolute;
+  height: 1.4%;
+  width: 4.92%;
+  top: 10.13%;
+  right: 93.22%;
+  bottom: 88.47%;
+  left: 1.86%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.atrs {
+  position: absolute;
+  top: 156px;
+  left: 34px;
+  font-size: var(--font-size-xs);
+  background: linear-gradient(#9c9b9b, #9c9b9b), #9c9b9b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+.group-child27 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xl);
+  width: 244px;
+  height: 321px;
+  object-fit: cover;
+}
+.protenas {
+  position: absolute;
+  top: 285px;
+  left: 55px;
+}
+.rectangle-parent26 {
+  position: relative;
+  width: 244px;
+  height: 321px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.casena,
+.discapacitados1 {
+  position: absolute;
+  top: 285px;
+  left: 70px;
+}
+.discapacitados1 {
+  top: 222px;
+  left: 19px;
+}
+.rectangle-parent28 {
+  position: relative;
+  width: 244px;
+  height: 321px;
+  flex-shrink: 0;
+  cursor: pointer;
+  color: var(--white);
+}
+.group-parent1,
+.infantil1 {
+  position: absolute;
+  top: 222px;
+  left: 69px;
+}
+.group-parent1 {
+  top: 412.81px;
+  left: 19px;
+  width: 1048px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  font-size: var(--font-size-xl);
+  color: var(--black);
+}
+.botellas,
+.group-parent2,
+.material {
+  position: absolute;
+  top: 285px;
+  left: 61px;
+}
+.group-parent2,
+.material {
+  left: 64px;
+}
+.group-parent2 {
+  top: 836.77px;
+  left: 19px;
+  width: 1048px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  font-size: var(--font-size-xl);
+  color: var(--black);
+}
+.iphone-14-pro-max-10-item {
+  position: absolute;
+  top: 280px;
+  left: 37px;
+  border-radius: 30px;
+  background-color: var(--white);
+  box-shadow: var(--sombra-contacto);
+  width: 357px;
+  height: 29px;
+}
+.tabler-icon-search {
+  position: absolute;
+  top: 285px;
+  left: 357px;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+}
+.buscar {
+  position: absolute;
+  height: 1.57%;
+  width: 18.84%;
+  top: 19.17%;
+  left: 13.95%;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+  display: inline-block;
+  cursor: pointer;
+}
+.tabler-icon-shopping-cart3 {
+  position: absolute;
+  height: 2.04%;
+  width: 6.98%;
+  top: 14.28%;
+  right: 6.28%;
+  bottom: 83.68%;
+  left: 86.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.iphone-14-pro-max-10 {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 1471px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--dark-blue);
+  font-family: var(--font-inter);
+}
+.gym-y-jam {
+  position: absolute;
+  top: 273px;
+  left: 104px;
+  cursor: pointer;
+}
+.calculadora,
+.inicio {
+  font-weight: 300;
+  cursor: pointer;
+}
+.inicio {
+  position: relative;
+}
+.calculadora {
+  text-decoration: underline;
+}
+.calculadora,
+.calculadora1,
+.contacto {
+  position: relative;
+}
+.contacto {
+  font-weight: 300;
+  color: var(--orange);
+  cursor: pointer;
+}
+.inicio-parent {
+  position: absolute;
+  top: 363px;
+  left: 74px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.facebook-2-icon,
+.instagram-2-icon,
+.whatsapp-icon {
+  position: absolute;
+  top: 728px;
+  left: 281px;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+}
+.instagram-2-icon,
+.whatsapp-icon {
+  left: 75px;
+}
+.whatsapp-icon {
+  top: 729px;
+  left: 178px;
+}
+.infogymjamcom {
+  position: absolute;
+  top: 878px;
+  left: 92px;
+  font-size: var(--font-size-xl);
+  font-weight: 200;
+}
+.menu-calculadora-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-5xs) var(--br-5xs);
+  background-color: var(--color-red-200);
+  width: 430px;
+  height: 214px;
+}
+.tabler-icon-arrow-badge-down,
+.tabler-icon-user-circle {
+  position: absolute;
+  top: 19px;
+  left: 312px;
+  width: 76px;
+  height: 76px;
+  overflow: hidden;
+}
+.tabler-icon-user-circle {
+  top: 7px;
+  left: 30px;
+  width: 101px;
+  height: 101px;
+}
+.aos-tjoven,
+.carmen-garcia-monreal {
+  position: absolute;
+  top: 108px;
+  left: 43px;
+  font-weight: 300;
+}
+.aos-tjoven {
+  top: 137px;
+}
+.tabler-icon-arrow-badge-down-parent {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 430px;
+  height: 213px;
+  overflow: hidden;
+  font-size: var(--font-size-xl);
+  color: var(--dark-blue);
+}
+.shopping-cart-basket-2 {
+  position: absolute;
+  top: 814px;
+  left: 178px;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.menu-calculadora {
+  position: relative;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(46, 41, 182, 0.95),
+    rgba(25, 22, 122, 0.95) 60.64%
+  );
+  width: 389px;
+  height: 932px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--white);
+  font-family: var(--font-inter);
+}

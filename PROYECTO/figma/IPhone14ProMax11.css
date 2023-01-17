@@ -1,0 +1,539 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.instance-inner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-sm) var(--br-sm);
+  background-color: var(--dark-blue);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
+}
+.gym-y-jam8 {
+  position: absolute;
+  top: 49.65%;
+  left: 29.07%;
+  cursor: pointer;
+}
+.component-1-child1,
+.component-1-child2 {
+  position: absolute;
+  height: 16.67%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 83.33%;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--white);
+}
+.component-1-child2 {
+  width: 55.56%;
+  top: 33.33%;
+  right: 44.44%;
+  bottom: 50%;
+}
+.component-12,
+.tabler-icon-user-circle6 {
+  position: absolute;
+  height: 13.29%;
+  width: 11.4%;
+  top: 58.04%;
+  right: 82.33%;
+  bottom: 28.67%;
+  left: 6.28%;
+}
+.tabler-icon-user-circle6 {
+  height: 34.27%;
+  top: 43.36%;
+  right: 6.28%;
+  bottom: 22.38%;
+  left: 82.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-child18,
+.rectangle-parent17 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 430px;
+  height: 143px;
+}
+.group-child18 {
+  border-radius: var(--br-3xl);
+  width: 244px;
+  height: 321px;
+  object-fit: cover;
+}
+.juvilados {
+  position: absolute;
+  top: 222px;
+  left: 54px;
+}
+.rectangle-parent18 {
+  position: relative;
+  width: 244px;
+  height: 321px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.discapacitados,
+.group-container,
+.infantil {
+  position: absolute;
+  top: 222px;
+  left: 19px;
+}
+.group-container,
+.infantil {
+  left: 69px;
+}
+.group-container {
+  top: 590px;
+  left: 13px;
+  width: 1048px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  font-size: var(--font-size-xl);
+}
+.group-child21 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--dark-blue);
+  box-shadow: 0-15px 17px rgba(0, 0, 0, 0.25);
+  width: 430px;
+  height: 257px;
+}
+.group-child22 {
+  position: absolute;
+  top: 58px;
+  left: 30px;
+  width: 158px;
+  height: 150px;
+  object-fit: cover;
+}
+.gym-y-jam9,
+.horario2 {
+  position: absolute;
+  top: 34px;
+  left: 75px;
+  text-align: left;
+}
+.horario2 {
+  left: 281px;
+}
+.p8 {
+  margin: 0;
+}
+.lunes-a-viernes-container2,
+.ubicacin2 {
+  position: absolute;
+  top: 58px;
+  left: 242px;
+}
+.ubicacin2 {
+  top: 163px;
+  left: 271px;
+  text-align: left;
+}
+.ronda-magdalena-n152 {
+  position: absolute;
+  top: 184px;
+  left: 242px;
+  text-decoration: underline;
+  font-weight: 300;
+}
+.todos-los-derechos2 {
+  position: absolute;
+  top: 224px;
+  left: 110px;
+  font-weight: 300;
+}
+.privacy-politics2 {
+  text-decoration: underline;
+}
+.privacy-politics-cookie-container2 {
+  position: absolute;
+  top: 239px;
+  left: 126px;
+  font-weight: 300;
+}
+.rectangle-parent21 {
+  position: absolute;
+  top: 675px;
+  left: 0;
+  width: 430px;
+  height: 257px;
+  text-align: center;
+  font-size: var(--font-size-2xs);
+}
+.iphone-14-pro-max-11-child {
+  position: absolute;
+  top: 198px;
+  left: 13px;
+  border-radius: var(--br-md);
+  width: 171px;
+  height: 212px;
+  object-fit: cover;
+}
+.tarifa-joven2 {
+  top: 21.24%;
+  left: 46.74%;
+}
+.div4,
+.recomendado-para-ti,
+.tarifa-joven2 {
+  position: absolute;
+  color: var(--dark-blue);
+  cursor: pointer;
+}
+.div4 {
+  top: 48.71%;
+  left: 4.88%;
+  font-size: var(--font-size-xl);
+}
+.recomendado-para-ti {
+  top: 56.44%;
+  left: 12.56%;
+}
+.caractersticas {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.no-hay-restricciones-de-uso-de {
+  margin-bottom: 0;
+}
+.entrada-con-horario-completo {
+  margin: 0;
+  font-size: var(--font-size-base);
+  padding-left: 21px;
+}
+.caractersticas-entrada-con-container {
+  position: absolute;
+  height: 19.1%;
+  width: 42.09%;
+  top: 25.43%;
+  left: 46.74%;
+  font-family: var(--font-inherit);
+  color: var(--dark-blue);
+  text-align: justify;
+  display: inline-block;
+  cursor: pointer;
+  font-size: var(--font-size-lg);
+}
+.group-child23 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--orange);
+  width: 219px;
+  height: 32px;
+}
+.aadir-al-carrito {
+  position: absolute;
+  top: 12.5%;
+  left: 5.02%;
+}
+.rectangle-parent22 {
+  position: absolute;
+  top: 453px;
+  left: 116px;
+  width: 219px;
+  height: 32px;
+  font-size: var(--font-size-lg);
+}
+.group-child24 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--dark-blue);
+  width: 37px;
+  height: 32px;
+}
+.interface-favorite-heart {
+  position: absolute;
+  top: 4px;
+  left: 7px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.rectangle-parent23 {
+  position: absolute;
+  top: 453px;
+  left: 348px;
+  width: 37px;
+  height: 32px;
+}
+.iphone-14-pro-max-11-item {
+  position: absolute;
+  top: 504.5px;
+  left: 12px;
+  border-top: 2px solid var(--dark-blue);
+  box-sizing: border-box;
+  width: 374px;
+  height: 2px;
+}
+.tabler-icon-shopping-cart2 {
+  position: absolute;
+  height: 3.22%;
+  width: 6.98%;
+  top: 18.03%;
+  right: 3.49%;
+  bottom: 78.76%;
+  left: 89.53%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.group-child,
+.iphone-14-pro-max-11 {
+  width: 100%;
+  background-color: var(--white);
+}
+.iphone-14-pro-max-11 {
+  position: relative;
+  height: 932px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--white);
+  font-family: var(--font-inter);
+}
+.group-child {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 29px;
+  box-shadow: var(--sombra-preguntas);
+}
+.se-ha-aadido {
+  height: 29.78%;
+  width: 91.46%;
+  top: 15.73%;
+  left: 4.41%;
+}
+.aceptar,
+.cancelar,
+.se-ha-aadido {
+  position: absolute;
+  display: inline-block;
+}
+.aceptar {
+  height: 13.33%;
+  width: 27.17%;
+  top: 70.37%;
+  left: 13.04%;
+  color: var(--dark-blue);
+  cursor: pointer;
+}
+.cancelar {
+  height: 13.48%;
+  width: 23.14%;
+  top: 70.22%;
+  left: 61.16%;
+  font-size: var(--font-size-sm);
+  color: #fc0000;
+}
+.rectangle-parent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.component-child,
+.component-item {
+  position: absolute;
+  box-sizing: border-box;
+}
+.component-child {
+  height: 1.48%;
+  width: 89.43%;
+  top: 56.56%;
+  right: 5.15%;
+  bottom: 41.96%;
+  left: 5.42%;
+  border-top: 2px solid var(--color-gray-100);
+}
+.component-item {
+  height: 22.27%;
+  width: 0.72%;
+  top: 66.11%;
+  right: 49.5%;
+  bottom: 11.62%;
+  left: 49.78%;
+  border-right: 2px solid var(--color-gray-100);
+}
+.group-parent {
+  position: relative;
+  width: 276px;
+  height: 135px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--black);
+  font-family: var(--font-inter);
+}
+.gym-y-jam {
+  position: absolute;
+  top: 273px;
+  left: 104px;
+  cursor: pointer;
+}
+.calculadora,
+.inicio {
+  font-weight: 300;
+  cursor: pointer;
+}
+.inicio {
+  position: relative;
+}
+.calculadora {
+  text-decoration: underline;
+}
+.calculadora,
+.calculadora1,
+.contacto {
+  position: relative;
+}
+.contacto {
+  font-weight: 300;
+  color: var(--orange);
+  cursor: pointer;
+}
+.inicio-parent {
+  position: absolute;
+  top: 363px;
+  left: 74px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.facebook-2-icon,
+.instagram-2-icon,
+.whatsapp-icon {
+  position: absolute;
+  top: 728px;
+  left: 281px;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+}
+.instagram-2-icon,
+.whatsapp-icon {
+  left: 75px;
+}
+.whatsapp-icon {
+  top: 729px;
+  left: 178px;
+}
+.infogymjamcom {
+  position: absolute;
+  top: 878px;
+  left: 92px;
+  font-size: var(--font-size-xl);
+  font-weight: 200;
+}
+.menu-calculadora-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-5xs) var(--br-5xs);
+  background-color: var(--color-red-200);
+  width: 430px;
+  height: 214px;
+}
+.tabler-icon-arrow-badge-down,
+.tabler-icon-user-circle {
+  position: absolute;
+  top: 19px;
+  left: 312px;
+  width: 76px;
+  height: 76px;
+  overflow: hidden;
+}
+.tabler-icon-user-circle {
+  top: 7px;
+  left: 30px;
+  width: 101px;
+  height: 101px;
+}
+.aos-tjoven,
+.carmen-garcia-monreal {
+  position: absolute;
+  top: 108px;
+  left: 43px;
+  font-weight: 300;
+}
+.aos-tjoven {
+  top: 137px;
+}
+.tabler-icon-arrow-badge-down-parent {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 430px;
+  height: 213px;
+  overflow: hidden;
+  font-size: var(--font-size-xl);
+  color: var(--dark-blue);
+}
+.shopping-cart-basket-2 {
+  position: absolute;
+  top: 814px;
+  left: 178px;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.menu-calculadora {
+  position: relative;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(46, 41, 182, 0.95),
+    rgba(25, 22, 122, 0.95) 60.64%
+  );
+  width: 389px;
+  height: 932px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--white);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.group-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 29px;
+  background-color: var(--white);
+  box-shadow: var(--sombra-preguntas);
+}
+.se-ha-aadido {
+  height: 29.78%;
+  width: 91.46%;
+  top: 15.73%;
+  left: 4.41%;
+}
+.aceptar,
+.cancelar,
+.se-ha-aadido {
+  position: absolute;
+  display: inline-block;
+}
+.aceptar {
+  height: 13.33%;
+  width: 27.17%;
+  top: 70.37%;
+  left: 13.04%;
+  color: var(--dark-blue);
+  cursor: pointer;
+}
+.cancelar {
+  height: 13.48%;
+  width: 23.14%;
+  top: 70.22%;
+  left: 61.16%;
+  font-size: var(--font-size-sm);
+  color: #fc0000;
+}
+.rectangle-parent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.component-child,
+.component-item {
+  position: absolute;
+  box-sizing: border-box;
+}
+.component-child {
+  height: 1.48%;
+  width: 89.43%;
+  top: 56.56%;
+  right: 5.15%;
+  bottom: 41.96%;
+  left: 5.42%;
+  border-top: 2px solid var(--color-gray-100);
+}
+.component-item {
+  height: 22.27%;
+  width: 0.72%;
+  top: 66.11%;
+  right: 49.5%;
+  bottom: 11.62%;
+  left: 49.78%;
+  border-right: 2px solid var(--color-gray-100);
+}
+.group-parent {
+  position: relative;
+  width: 276px;
+  height: 135px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--black);
+  font-family: var(--font-inter);
+}

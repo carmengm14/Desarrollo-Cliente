@@ -1,0 +1,384 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.instance-child2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-sm) var(--br-sm);
+  background-color: var(--dark-blue);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
+}
+.gym-y-jam12 {
+  position: absolute;
+  top: 49.65%;
+  left: 29.07%;
+  cursor: pointer;
+}
+.component-1-child5,
+.component-1-child6 {
+  position: absolute;
+  height: 16.67%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 83.33%;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--white);
+}
+.component-1-child6 {
+  width: 55.56%;
+  top: 33.33%;
+  right: 44.44%;
+  bottom: 50%;
+}
+.component-14,
+.tabler-icon-user-circle8 {
+  position: absolute;
+  height: 13.29%;
+  width: 11.4%;
+  top: 58.04%;
+  right: 82.33%;
+  bottom: 28.67%;
+  left: 6.28%;
+}
+.tabler-icon-user-circle8 {
+  height: 34.27%;
+  top: 43.36%;
+  right: 6.28%;
+  bottom: 22.38%;
+  left: 82.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangle-parent34,
+.tarifas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 430px;
+  height: 143px;
+}
+.tarifas {
+  height: 2.69%;
+  width: 29.53%;
+  top: 20.95%;
+  left: 36.05%;
+  color: var(--dark-blue);
+  display: inline-block;
+}
+.group-child35 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--dark-blue);
+  box-shadow: 0-15px 17px rgba(0, 0, 0, 0.25);
+  width: 430px;
+  height: 257px;
+}
+.group-child36 {
+  position: absolute;
+  top: 58px;
+  left: 30px;
+  width: 158px;
+  height: 150px;
+  object-fit: cover;
+}
+.gym-y-jam13,
+.horario4 {
+  position: absolute;
+  top: 34px;
+  left: 75px;
+  text-align: left;
+}
+.horario4 {
+  left: 281px;
+}
+.lunes-a-viernes4 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.p14 {
+  margin: 0;
+}
+.lunes-a-viernes-container4,
+.ubicacin4 {
+  position: absolute;
+  top: 58px;
+  left: 242px;
+}
+.ubicacin4 {
+  top: 163px;
+  left: 271px;
+  text-align: left;
+}
+.ronda-magdalena-n154 {
+  position: absolute;
+  top: 184px;
+  left: 242px;
+  text-decoration: underline;
+  font-weight: 300;
+}
+.todos-los-derechos4 {
+  position: absolute;
+  top: 224px;
+  left: 110px;
+  font-weight: 300;
+}
+.privacy-politics4 {
+  text-decoration: underline;
+}
+.privacy-politics-cookie-container4 {
+  position: absolute;
+  top: 239px;
+  left: 126px;
+  font-weight: 300;
+}
+.rectangle-parent35 {
+  position: absolute;
+  top: 691px;
+  left: 0;
+  width: 430px;
+  height: 257px;
+  text-align: center;
+  font-size: var(--font-size-2xs);
+}
+.group-child37 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xl);
+  width: 244px;
+  height: 321px;
+  object-fit: cover;
+}
+.jovenes {
+  position: absolute;
+  top: 222px;
+  left: 67px;
+}
+.rectangle-parent36 {
+  position: relative;
+  width: 244px;
+  height: 321px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.juvilados1 {
+  position: absolute;
+  top: 222px;
+  left: 54px;
+}
+.discapacitados3,
+.group-parent3,
+.infantil3 {
+  position: absolute;
+  top: 222px;
+  left: 19px;
+}
+.group-parent3,
+.infantil3 {
+  left: 69px;
+}
+.group-parent3 {
+  top: 278px;
+  left: 32px;
+  width: 1048px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  font-size: var(--font-size-xl);
+}
+.atrs1 {
+  position: absolute;
+  top: 157px;
+  left: 36px;
+  font-size: var(--font-size-xs);
+  background: linear-gradient(#9c9b9b, #9c9b9b), #9c9b9b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+.iphone-14-pro-max-9-child {
+  position: absolute;
+  height: 2.16%;
+  width: 4.92%;
+  top: 16.08%;
+  right: 92.29%;
+  bottom: 81.76%;
+  left: 2.79%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.tabler-icon-shopping-cart4 {
+  position: absolute;
+  top: 199px;
+  left: 378px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.iphone-14-pro-max-9 {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 945px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--white);
+  font-family: var(--font-inter);
+}
+.gym-y-jam {
+  position: absolute;
+  top: 273px;
+  left: 104px;
+  cursor: pointer;
+}
+.calculadora,
+.inicio {
+  font-weight: 300;
+  cursor: pointer;
+}
+.inicio {
+  position: relative;
+}
+.calculadora {
+  text-decoration: underline;
+}
+.calculadora,
+.calculadora1,
+.contacto {
+  position: relative;
+}
+.contacto {
+  font-weight: 300;
+  color: var(--orange);
+  cursor: pointer;
+}
+.inicio-parent {
+  position: absolute;
+  top: 363px;
+  left: 74px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.facebook-2-icon,
+.instagram-2-icon,
+.whatsapp-icon {
+  position: absolute;
+  top: 728px;
+  left: 281px;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+}
+.instagram-2-icon,
+.whatsapp-icon {
+  left: 75px;
+}
+.whatsapp-icon {
+  top: 729px;
+  left: 178px;
+}
+.infogymjamcom {
+  position: absolute;
+  top: 878px;
+  left: 92px;
+  font-size: var(--font-size-xl);
+  font-weight: 200;
+}
+.menu-calculadora-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-5xs) var(--br-5xs);
+  background-color: var(--color-red-200);
+  width: 430px;
+  height: 214px;
+}
+.tabler-icon-arrow-badge-down,
+.tabler-icon-user-circle {
+  position: absolute;
+  top: 19px;
+  left: 312px;
+  width: 76px;
+  height: 76px;
+  overflow: hidden;
+}
+.tabler-icon-user-circle {
+  top: 7px;
+  left: 30px;
+  width: 101px;
+  height: 101px;
+}
+.aos-tjoven,
+.carmen-garcia-monreal {
+  position: absolute;
+  top: 108px;
+  left: 43px;
+  font-weight: 300;
+}
+.aos-tjoven {
+  top: 137px;
+}
+.tabler-icon-arrow-badge-down-parent {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 430px;
+  height: 213px;
+  overflow: hidden;
+  font-size: var(--font-size-xl);
+  color: var(--dark-blue);
+}
+.shopping-cart-basket-2 {
+  position: absolute;
+  top: 814px;
+  left: 178px;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.menu-calculadora {
+  position: relative;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(46, 41, 182, 0.95),
+    rgba(25, 22, 122, 0.95) 60.64%
+  );
+  width: 389px;
+  height: 932px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--white);
+  font-family: var(--font-inter);
+}

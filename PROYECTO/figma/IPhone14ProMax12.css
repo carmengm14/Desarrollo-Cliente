@@ -1,0 +1,679 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.instance-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-sm) var(--br-sm);
+  background-color: var(--dark-blue);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
+}
+.gym-y-jam6 {
+  position: absolute;
+  top: 49.65%;
+  left: 29.07%;
+  cursor: pointer;
+}
+.component-1-inner,
+.rectangle-div {
+  position: absolute;
+  height: 16.67%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 83.33%;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--white);
+}
+.rectangle-div {
+  width: 55.56%;
+  top: 33.33%;
+  right: 44.44%;
+  bottom: 50%;
+}
+.component-11,
+.tabler-icon-user-circle5 {
+  position: absolute;
+  height: 13.29%;
+  width: 11.4%;
+  top: 58.04%;
+  right: 82.33%;
+  bottom: 28.67%;
+  left: 6.28%;
+}
+.tabler-icon-user-circle5 {
+  height: 34.27%;
+  top: 43.36%;
+  right: 6.28%;
+  bottom: 22.38%;
+  left: 82.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-child2,
+.rectangle-parent2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 430px;
+}
+.rectangle-parent2 {
+  height: 143px;
+  font-size: var(--font-size-2xl);
+  color: var(--white);
+}
+.group-child2 {
+  background-color: var(--dark-blue);
+  box-shadow: 0-15px 17px rgba(0, 0, 0, 0.25);
+  height: 257px;
+}
+.ellipse-icon {
+  position: absolute;
+  top: 58px;
+  left: 30px;
+  width: 158px;
+  height: 150px;
+  object-fit: cover;
+}
+.gym-y-jam7,
+.horario1 {
+  position: absolute;
+  top: 34px;
+  left: 75px;
+  text-align: left;
+}
+.horario1 {
+  left: 281px;
+}
+.lunes-a-viernes1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.p5 {
+  margin: 0;
+}
+.lunes-a-viernes-container1,
+.ubicacin1 {
+  position: absolute;
+  top: 58px;
+  left: 242px;
+}
+.ubicacin1 {
+  top: 163px;
+  left: 271px;
+  text-align: left;
+}
+.ronda-magdalena-n151 {
+  position: absolute;
+  top: 184px;
+  left: 242px;
+  text-decoration: underline;
+  font-weight: 300;
+}
+.todos-los-derechos1 {
+  position: absolute;
+  top: 224px;
+  left: 110px;
+  font-weight: 300;
+}
+.privacy-politics1 {
+  text-decoration: underline;
+}
+.privacy-politics-cookie-container1 {
+  position: absolute;
+  top: 239px;
+  left: 126px;
+  font-weight: 300;
+}
+.rectangle-parent3 {
+  position: absolute;
+  top: 1068px;
+  left: 0;
+  width: 430px;
+  height: 257px;
+  text-align: center;
+  font-size: var(--font-size-2xs);
+  color: var(--white);
+}
+.carrito-de-compra {
+  position: absolute;
+  top: 13.97%;
+  left: 10.93%;
+  font-size: var(--font-size-2xl);
+}
+.iphone-14-pro-max-12-child,
+.iphone-14-pro-max-12-inner,
+.iphone-14-pro-max-12-item {
+  position: absolute;
+  top: 265px;
+  left: 28px;
+  border-top: 2px solid var(--dark-blue);
+  box-sizing: border-box;
+  width: 374px;
+  height: 2px;
+}
+.iphone-14-pro-max-12-inner,
+.iphone-14-pro-max-12-item {
+  top: 375px;
+  box-shadow: var(--sombra-preguntas);
+}
+.iphone-14-pro-max-12-inner {
+  top: 481px;
+}
+.group-child3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  width: 65px;
+  height: 81px;
+  object-fit: cover;
+}
+.div2,
+.tarifa-joven1 {
+  position: absolute;
+  top: 25.93%;
+  left: 20.34%;
+}
+.div2 {
+  top: 35.8%;
+  left: 77.97%;
+  font-size: var(--font-size-xl);
+}
+.rectangle-parent4 {
+  position: absolute;
+  top: 279px;
+  left: 35px;
+  width: 354px;
+  height: 81px;
+  cursor: pointer;
+  font-size: var(--font-size-2xl);
+}
+.datos-de-alta {
+  position: absolute;
+  top: 38.44%;
+  left: 11.16%;
+  font-size: 30px;
+}
+.div3,
+.matrcula1 {
+  position: absolute;
+  top: 25.93%;
+  left: 20.99%;
+}
+.div3 {
+  top: 35.8%;
+  left: 80.47%;
+  font-size: var(--font-size-xl);
+}
+.rectangle-parent5 {
+  position: absolute;
+  top: 392px;
+  left: 35px;
+  width: 343px;
+  height: 81px;
+  font-size: var(--font-size-2xl);
+}
+.group-child5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xl);
+  background-color: var(--white);
+  box-shadow: var(--sombra-contacto);
+  width: 169px;
+  height: 30px;
+}
+.nombre {
+  position: absolute;
+  top: 6px;
+  left: 15px;
+  background: linear-gradient(#9c9b9b, #9c9b9b), #9c9b9b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.group-child6,
+.rectangle-parent6 {
+  position: absolute;
+  top: 590px;
+  left: 35px;
+  width: 169px;
+  height: 30px;
+}
+.group-child6 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xl);
+  background-color: var(--white);
+  box-shadow: var(--sombra-contacto);
+  width: 186px;
+}
+.apellidos {
+  position: absolute;
+  top: 6px;
+  left: 10.25px;
+  background: linear-gradient(#9c9b9b, #9c9b9b), #9c9b9b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.group-child7,
+.rectangle-parent7 {
+  position: absolute;
+  top: 590px;
+  left: 215px;
+  width: 186px;
+  height: 30px;
+}
+.group-child7 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xl);
+  background-color: var(--white);
+  box-shadow: var(--sombra-contacto);
+  width: 366px;
+}
+.rectangle-parent8,
+.rectangle-parent9 {
+  position: absolute;
+  top: 674px;
+  left: 35px;
+  width: 366px;
+  height: 30px;
+}
+.rectangle-parent9 {
+  top: 632px;
+}
+.localidad {
+  position: absolute;
+  top: 6px;
+  left: 20.17px;
+  background: linear-gradient(#9c9b9b, #9c9b9b), #9c9b9b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.group-child10,
+.rectangle-parent10 {
+  position: absolute;
+  top: 787px;
+  left: 35px;
+  width: 366px;
+  height: 30px;
+}
+.group-child10 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xl);
+  background-color: var(--white);
+  box-shadow: var(--sombra-contacto);
+  width: 261px;
+}
+.iban {
+  position: absolute;
+  top: 6px;
+  left: 14.38px;
+  background: linear-gradient(#9c9b9b, #9c9b9b), #9c9b9b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.group-child11,
+.rectangle-parent11 {
+  position: absolute;
+  top: 877px;
+  left: 35px;
+  width: 261px;
+  height: 30px;
+}
+.group-child11 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xl);
+  background-color: var(--white);
+  box-shadow: var(--sombra-contacto);
+  width: 92px;
+}
+.cvv {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  background: linear-gradient(#9c9b9b, #9c9b9b), #9c9b9b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  width: 29.55px;
+}
+.rectangle-parent12 {
+  position: absolute;
+  top: 877px;
+  left: 309px;
+  width: 92px;
+  height: 30px;
+}
+.n {
+  position: absolute;
+  top: 6px;
+  left: 23.83px;
+  background: linear-gradient(#9c9b9b, #9c9b9b), #9c9b9b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  width: 29.55px;
+}
+.group-child13,
+.rectangle-parent13 {
+  position: absolute;
+  top: 829px;
+  left: 35px;
+  width: 169px;
+  height: 30px;
+}
+.group-child13 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xl);
+  background-color: var(--white);
+  box-shadow: var(--sombra-contacto);
+  width: 181px;
+}
+.cp {
+  position: absolute;
+  top: 6px;
+  left: 25.52px;
+  background: linear-gradient(#9c9b9b, #9c9b9b), #9c9b9b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  width: 31.64px;
+}
+.rectangle-parent14 {
+  position: absolute;
+  top: 829px;
+  left: 220px;
+  width: 181px;
+  height: 30px;
+}
+.group-child14,
+.group-child15,
+.group-child16 {
+  position: absolute;
+  top: 26px;
+  left: 0;
+  border-radius: var(--br-2xl);
+  background-color: var(--white);
+  box-shadow: var(--sombra-contacto);
+  width: 102px;
+  height: 30px;
+}
+.group-child15,
+.group-child16 {
+  left: 132px;
+}
+.group-child16 {
+  left: 264px;
+}
+.ao,
+.da,
+.fecha-de-nacimiento,
+.mes {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  background: linear-gradient(#9c9b9b, #9c9b9b), #9c9b9b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ao,
+.da,
+.mes {
+  top: 32px;
+  left: 36px;
+}
+.ao,
+.mes {
+  left: 169px;
+}
+.ao {
+  left: 301px;
+}
+.rectangle-parent15 {
+  position: absolute;
+  top: 713px;
+  left: 35px;
+  width: 366px;
+  height: 56px;
+}
+.consentimiento-para-fotografa {
+  position: absolute;
+  top: 937px;
+  left: 74px;
+  background: linear-gradient(#9c9b9b, #9c9b9b), #9c9b9b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.iphone-14-pro-max-12-child1 {
+  position: absolute;
+  top: 933px;
+  left: 35px;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  box-shadow: var(--sombra-contacto);
+  width: 29px;
+  height: 25px;
+}
+.consentimiento-uso-de {
+  position: absolute;
+  top: 974px;
+  left: 74px;
+  background: linear-gradient(#9c9b9b, #9c9b9b), #9c9b9b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  width: 333px;
+  height: 36px;
+}
+.iphone-14-pro-max-12-child2 {
+  position: absolute;
+  top: 970px;
+  left: 35px;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  box-shadow: var(--sombra-contacto);
+  width: 29px;
+  height: 25px;
+}
+.group-child17 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--orange);
+  width: 219px;
+  height: 32px;
+}
+.finalizar-compra {
+  position: absolute;
+  top: 12.5%;
+  left: 5.94%;
+}
+.rectangle-parent16 {
+  position: absolute;
+  top: 1023px;
+  left: 108px;
+  width: 219px;
+  height: 32px;
+  cursor: pointer;
+  font-size: var(--font-size-lg);
+  color: var(--white);
+}
+.tabler-icon-shopping-cart1 {
+  position: absolute;
+  height: 2.27%;
+  width: 6.98%;
+  top: 11.71%;
+  right: 3.72%;
+  bottom: 86.03%;
+  left: 89.3%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.iphone-14-pro-max-12 {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 1324px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--dark-blue);
+  font-family: var(--font-inter);
+}
+.gym-y-jam {
+  position: absolute;
+  top: 273px;
+  left: 104px;
+  cursor: pointer;
+}
+.calculadora,
+.inicio {
+  font-weight: 300;
+  cursor: pointer;
+}
+.inicio {
+  position: relative;
+}
+.calculadora {
+  text-decoration: underline;
+}
+.calculadora,
+.calculadora1,
+.contacto {
+  position: relative;
+}
+.contacto {
+  font-weight: 300;
+  color: var(--orange);
+  cursor: pointer;
+}
+.inicio-parent {
+  position: absolute;
+  top: 363px;
+  left: 74px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.facebook-2-icon,
+.instagram-2-icon,
+.whatsapp-icon {
+  position: absolute;
+  top: 728px;
+  left: 281px;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+}
+.instagram-2-icon,
+.whatsapp-icon {
+  left: 75px;
+}
+.whatsapp-icon {
+  top: 729px;
+  left: 178px;
+}
+.infogymjamcom {
+  position: absolute;
+  top: 878px;
+  left: 92px;
+  font-size: var(--font-size-xl);
+  font-weight: 200;
+}
+.menu-calculadora-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-5xs) var(--br-5xs);
+  background-color: var(--color-red-200);
+  width: 430px;
+  height: 214px;
+}
+.tabler-icon-arrow-badge-down,
+.tabler-icon-user-circle {
+  position: absolute;
+  top: 19px;
+  left: 312px;
+  width: 76px;
+  height: 76px;
+  overflow: hidden;
+}
+.tabler-icon-user-circle {
+  top: 7px;
+  left: 30px;
+  width: 101px;
+  height: 101px;
+}
+.aos-tjoven,
+.carmen-garcia-monreal {
+  position: absolute;
+  top: 108px;
+  left: 43px;
+  font-weight: 300;
+}
+.aos-tjoven {
+  top: 137px;
+}
+.tabler-icon-arrow-badge-down-parent {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 430px;
+  height: 213px;
+  overflow: hidden;
+  font-size: var(--font-size-xl);
+  color: var(--dark-blue);
+}
+.shopping-cart-basket-2 {
+  position: absolute;
+  top: 814px;
+  left: 178px;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.menu-calculadora {
+  position: relative;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(46, 41, 182, 0.95),
+    rgba(25, 22, 122, 0.95) 60.64%
+  );
+  width: 389px;
+  height: 932px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--white);
+  font-family: var(--font-inter);
+}

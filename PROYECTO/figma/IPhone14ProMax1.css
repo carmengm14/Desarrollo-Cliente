@@ -1,0 +1,556 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.iphone-14-pro-max-1-child {
+  position: absolute;
+  top: 872px;
+  left: 0;
+  width: 479.5px;
+  height: 538.64px;
+}
+.iphone-14-pro-max-1-item {
+  position: absolute;
+  top: 126px;
+  left: 0;
+  border-radius: 0 0 var(--br-sm) var(--br-sm);
+  width: 430px;
+  height: 338px;
+  object-fit: cover;
+}
+.tarifas2 {
+  position: absolute;
+  top: 480px;
+  left: 152px;
+  font-size: var(--font-size-2xl);
+  font-weight: 300;
+  color: var(--color-black);
+  text-align: center;
+}
+.preguntas-frecuentes {
+  top: 1544px;
+  left: 62px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.contacto4,
+.ltima-novedad1,
+.preguntas-frecuentes {
+  position: absolute;
+  font-weight: 300;
+  text-align: center;
+}
+.contacto4 {
+  top: 1850px;
+  left: 27px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.ltima-novedad1 {
+  top: 1167px;
+  left: 15px;
+  font-size: var(--font-size-2xl);
+}
+.group-child289,
+.group-child290 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  width: 194px;
+  height: 238px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.group-child290 {
+  left: 208px;
+}
+.group-child292,
+.rectangle-parent266 {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 402px;
+  height: 238px;
+}
+.group-child292 {
+  left: 208px;
+  border-radius: var(--br-sm);
+  width: 194px;
+  object-fit: cover;
+}
+.rectangle-parent267 {
+  position: absolute;
+  top: 262px;
+  left: 0;
+  width: 402px;
+  height: 238px;
+  cursor: pointer;
+}
+.group-parent25 {
+  position: absolute;
+  top: 557px;
+  left: 13px;
+  width: 404px;
+  height: 500px;
+}
+.iphone-14-pro-max-1-inner {
+  position: absolute;
+  top: 1221px;
+  left: 2px;
+  border-radius: var(--br-4xl);
+  width: 424px;
+  height: 307px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.iphone-14-pro-max-1-child1,
+.iphone-14-pro-max-1-child2,
+.iphone-14-pro-max-1-child3,
+.iphone-14-pro-max-1-child4 {
+  position: absolute;
+  top: 1600px;
+  left: 27px;
+  border-radius: var(--br-2xl);
+  background-color: var(--dark-blue);
+  box-shadow: var(--sombra-preguntas);
+  width: 376px;
+  height: 42px;
+}
+.iphone-14-pro-max-1-child2,
+.iphone-14-pro-max-1-child3,
+.iphone-14-pro-max-1-child4 {
+  top: 1650px;
+  background-color: var(--blue);
+}
+.iphone-14-pro-max-1-child3,
+.iphone-14-pro-max-1-child4 {
+  top: 1700px;
+  left: 26px;
+  background-color: var(--dark-blue);
+}
+.iphone-14-pro-max-1-child4 {
+  top: 1750px;
+  background-color: var(--blue);
+}
+.tabler-icon-arrow-badge-down5 {
+  position: absolute;
+  top: 1597px;
+  left: 335px;
+  width: 49px;
+  height: 49px;
+  overflow: hidden;
+}
+.tabler-icon-arrow-badge-down6,
+.tabler-icon-arrow-badge-down7,
+.tabler-icon-arrow-badge-down8 {
+  position: absolute;
+  top: 1646px;
+  left: 335px;
+  width: 49px;
+  height: 49px;
+  overflow: hidden;
+}
+.tabler-icon-arrow-badge-down7,
+.tabler-icon-arrow-badge-down8 {
+  top: 1696px;
+}
+.tabler-icon-arrow-badge-down8 {
+  top: 1746px;
+}
+.hay-que-pagar,
+.qu-da-es {
+  position: absolute;
+  top: 1613px;
+  left: 46px;
+}
+.hay-que-pagar {
+  top: 1661px;
+}
+.la-piscina-es,
+.tengo-que-reservar {
+  position: absolute;
+  top: 1711px;
+  left: 46px;
+}
+.la-piscina-es {
+  top: 1761px;
+}
+.mail-chat-bubble-typing-square {
+  position: absolute;
+  top: 1856px;
+  left: 167px;
+  width: 24px;
+  height: 17px;
+  overflow: hidden;
+}
+.group-child293,
+.vector-icon {
+  position: absolute;
+  top: 1650px;
+  left: 0;
+  width: 821px;
+  height: 584px;
+}
+.group-child293 {
+  top: 0;
+  border-radius: var(--br-2xl);
+  background-color: var(--white);
+  box-shadow: var(--sombra-contacto);
+  width: 363px;
+  height: 30px;
+}
+.email3 {
+  position: absolute;
+  top: 6px;
+  left: 20px;
+  background: linear-gradient(#9c9b9b, #9c9b9b), #9c9b9b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.group-child295,
+.rectangle-parent268,
+.rectangle-parent269 {
+  position: absolute;
+  top: 1929px;
+  left: 27px;
+  width: 363px;
+  height: 30px;
+}
+.group-child295,
+.rectangle-parent269 {
+  top: 1974px;
+}
+.group-child295 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-4xs);
+  background-color: var(--white);
+  box-shadow: var(--sombra-contacto);
+  height: 73px;
+}
+.group-child296,
+.rectangle-parent270 {
+  position: absolute;
+  top: 2019px;
+  left: 27px;
+  width: 363px;
+  height: 73px;
+}
+.group-child296 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xl);
+  background-color: var(--orange);
+  box-shadow: var(--sombra-contacto);
+  height: 30px;
+}
+.enviar2 {
+  position: absolute;
+  top: 7px;
+  left: 163px;
+}
+.rectangle-parent271 {
+  position: absolute;
+  top: 2107px;
+  left: 27px;
+  width: 363px;
+  height: 30px;
+  font-size: var(--font-size-2xs);
+}
+.group-child297 {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: var(--dark-blue);
+  box-shadow: 0-15px 17px rgba(0, 0, 0, 0.25);
+  width: 430px;
+  height: 257px;
+}
+.group-child298 {
+  position: absolute;
+  top: 98px;
+  left: 30px;
+  width: 158px;
+  height: 150px;
+  object-fit: cover;
+}
+.gym-y-jam28,
+.horario15 {
+  position: absolute;
+  top: 74px;
+  left: 75px;
+  text-align: left;
+}
+.horario15 {
+  left: 281px;
+}
+.lunes-a-viernes12 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.p41 {
+  margin: 0;
+}
+.lunes-a-viernes-container12,
+.ubicacin12 {
+  position: absolute;
+  top: 98px;
+  left: 242px;
+}
+.ubicacin12 {
+  top: 203px;
+  left: 271px;
+  text-align: left;
+}
+.ronda-magdalena-n1512 {
+  position: absolute;
+  top: 224px;
+  left: 242px;
+  text-decoration: underline;
+  font-weight: 300;
+}
+.todos-los-derechos12 {
+  position: absolute;
+  top: 264px;
+  left: 110px;
+  font-weight: 300;
+}
+.privacy-politics12 {
+  text-decoration: underline;
+}
+.privacy-politics-cookie-container12 {
+  position: absolute;
+  top: 279px;
+  left: 126px;
+  font-weight: 300;
+}
+.group-child299 {
+  position: absolute;
+  top: 0;
+  left: 115px;
+  width: 199px;
+  height: 33px;
+}
+.rectangle-parent272 {
+  position: absolute;
+  top: 2209px;
+  left: 0;
+  width: 430px;
+  height: 297px;
+  text-align: center;
+  font-size: var(--font-size-2xs);
+}
+.component-child4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-sm) var(--br-sm);
+  background-color: var(--dark-blue);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
+}
+.gym-y-jam29 {
+  position: absolute;
+  top: 49.65%;
+  left: 29.07%;
+}
+.component-1-child21,
+.component-1-child22 {
+  position: absolute;
+  height: 16.67%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 83.33%;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--white);
+}
+.component-1-child22 {
+  width: 55.56%;
+  top: 33.33%;
+  right: 44.44%;
+  bottom: 50%;
+}
+.component-112,
+.tabler-icon-user-circle16 {
+  position: absolute;
+  height: 13.29%;
+  width: 11.4%;
+  top: 58.04%;
+  right: 82.33%;
+  bottom: 28.67%;
+  left: 6.28%;
+}
+.tabler-icon-user-circle16 {
+  height: 34.27%;
+  top: 43.36%;
+  right: 6.28%;
+  bottom: 22.38%;
+  left: 82.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangle-parent273 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 430px;
+  height: 143px;
+  font-size: var(--font-size-2xl);
+}
+.iphone-14-pro-max-1 {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 2506px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--white);
+  font-family: var(--font-inter);
+}
+.gym-y-jam3 {
+  position: absolute;
+  top: 273px;
+  left: 104px;
+  cursor: pointer;
+}
+.inicio3 {
+  position: relative;
+  text-decoration: underline;
+  font-weight: 300;
+}
+.clases3 {
+  font-weight: 300;
+  cursor: pointer;
+}
+.calculadora7,
+.clases3,
+.contacto3 {
+  position: relative;
+}
+.contacto3 {
+  font-weight: 300;
+  color: var(--orange);
+  cursor: pointer;
+}
+.frame-div {
+  position: absolute;
+  top: 363px;
+  left: 74px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.facebook-2-icon3,
+.instagram-2-icon3,
+.whatsapp-icon3 {
+  position: absolute;
+  top: 728px;
+  left: 281px;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+}
+.instagram-2-icon3,
+.whatsapp-icon3 {
+  left: 75px;
+}
+.whatsapp-icon3 {
+  top: 729px;
+  left: 178px;
+}
+.infogymjamcom3 {
+  position: absolute;
+  top: 878px;
+  left: 92px;
+  font-size: var(--font-size-xl);
+  font-weight: 200;
+}
+.menu-inicio-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-5xs) var(--br-5xs);
+  background-color: var(--color-red-200);
+  width: 430px;
+  height: 214px;
+}
+.tabler-icon-arrow-badge-down3,
+.tabler-icon-user-circle3 {
+  position: absolute;
+  top: 19px;
+  left: 312px;
+  width: 76px;
+  height: 76px;
+  overflow: hidden;
+}
+.tabler-icon-user-circle3 {
+  top: 7px;
+  left: 30px;
+  width: 101px;
+  height: 101px;
+}
+.aos-tjoven3,
+.carmen-garcia-monreal3 {
+  position: absolute;
+  top: 108px;
+  left: 43px;
+  font-weight: 300;
+}
+.aos-tjoven3 {
+  top: 137px;
+}
+.tabler-icon-arrow-badge-down-parent1 {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 430px;
+  height: 213px;
+  overflow: hidden;
+  font-size: var(--font-size-xl);
+  color: var(--dark-blue);
+}
+.shopping-cart-basket-23 {
+  position: absolute;
+  top: 814px;
+  left: 178px;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.menu-inicio {
+  position: relative;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(46, 41, 182, 0.95),
+    rgba(25, 22, 122, 0.95) 60.64%
+  );
+  width: 389px;
+  height: 932px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--white);
+  font-family: var(--font-inter);
+}
