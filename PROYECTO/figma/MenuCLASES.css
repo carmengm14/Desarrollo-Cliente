@@ -24,6 +24,9 @@ body {
 .contacto2 {
   position: relative;
 }
+.calculadora5{
+  color: rgba(240, 248, 255, 0);
+}
 .contacto2 {
   font-weight: 300;
   color: var(--orange);
@@ -120,7 +123,7 @@ body {
 .menu-clases {
   position: relative;
   background: radial-gradient(
-    50% 50%at 50% 50%,
+    50% 50% at 50% 50%,
     rgba(46, 41, 182, 0.95),
     rgba(25, 22, 122, 0.95) 60.64%
   );

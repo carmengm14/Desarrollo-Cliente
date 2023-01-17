@@ -347,7 +347,7 @@ body {
 .menu-calculadora {
   position: relative;
   background: radial-gradient(
-    50% 50%at 50% 50%,
+    50% 50% at 50% 50%,
     rgba(46, 41, 182, 0.95),
     rgba(25, 22, 122, 0.95) 60.64%
   );
