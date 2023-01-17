@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background: #fffde7;
+    height: 100vh;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__title {
+    width: 300px;
+  }
+  .main-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main {
+    margin: 10px;
+    width: 400px;
+    border: solid #e9c46a 3px;
+    padding: 10px;
+  }
+  
+  .main__btn {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main__btn-play,
+  .main__btn-stop {
+    background-color: transparent;
+    border: none;
+    width: 30px;
+    outline: none;
+  }
+  .main__btn-play,
+  .main__btn-stop:hover {
+    cursor: pointer;
+  }
+  
+  .main__btn-play--image,
+  .main__btn-stop--image {
+    width: 30px;
+    height: 40px;
+  }
+  .main__btn-hidden {
+    display: none;
+  }
+  .main__btn-newPlay {
+    outline: none;
+    background-color: #15c3b1;
+    padding: 12px 24px;
+    color: #fffde7;
+    border-radius: 6px;
+    border-bottom: 4px solid #59ccbf;
+    border-top: 0 solid #59ccbf;
+    border-left: none;
+    border-right: none;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .main__btn-newPlay:hover {
+    border-bottom-width: 0;
+    border-top-width: 4px;
+    cursor: pointer;
+  }
+  
+  .js-main__bingo {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+    color: #15c3b1;
+    padding-top: 20px;
+  }
+  
+  .main__container {
+    display: flex;
+    padding-top: 25px;
+  }
+  .main__container-game {
+    border-width: 7px;
+    width: 50%;
+    height: 100%;
+    margin: 60px 20px 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  
+  .main__container-game--ball {
+    width: auto;
+    font-size: 24px;
+    padding: 10px 0;
+    text-align: center;
+    background: white;
+    outline-style: solid;
+    outline-color: grey;
+    color: #fe8b0a;
+  }
+  .main__container-balls {
+    height: auto;
+    width: 50%;
+    margin: 15px 20px 20px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .main__container-balls--ball {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-style: solid;
+    border-width: 4px;
+    border-color: orange;
+    background-color: white;
+    border-radius: 30px;
+    margin: 8px 2px;
+    padding-top: 4px;
+  }
+  .inside-card {
+    background-color: #fe8b0a;
+    color: #fffde7;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: #15c3b1;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  @keyframes sayBingo {
+    0% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(1.4);
+    }
+    75% {
+      transform: scale(0.6);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .js-header__title {
+    animation-timing-function: linear;
+    animation-name: sayBingo;
+    animation-duration: 2s;
+  }
