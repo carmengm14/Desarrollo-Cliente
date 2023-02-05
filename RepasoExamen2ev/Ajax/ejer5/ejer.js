@@ -1,7 +1,6 @@
 window.onload= function(){
-    document.getElementById('boton').onclick = sacarJS;
+    document.getElementById('boton').onclick = sacarPHP;
 }
-
 
 var XMLHttpRequestObject = false;
 if (window.XMLHttpRequest) {
@@ -10,16 +9,16 @@ XMLHttpRequestObject = new XMLHttpRequest();
 XMLHttpRequestObject = new ActiveXObject("Microsoft.XMLHTTP");
 }
 
-function sacarJS(){
+function sacarPHP(fichero, Lugarcontenedor){
     if(XMLHttpRequestObject){
         var contenedor = document.getElementById("contenido");
-        XMLHttpRequestObject.open("GET", "fichero.js")
+        XMLHttpRequestObject.open("GET", "fichero.php")
 
         XMLHttpRequestObject.onreadystatechange = function(){
             if (XMLHttpRequestObject.readyState == 4 &&
                 XMLHttpRequestObject.status == 200) {
-                  var resultado = eval(XMLHttpRequestObject.responseText);
-                contenedor.innerHTML(resultado);
+                var resultado = XMLHttpRequestObject.responseText;
+                contenedor.innerHTML = resultado;
             }
         }
         XMLHttpRequestObject.send(null);
