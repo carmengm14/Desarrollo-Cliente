@@ -15,7 +15,9 @@ function sacardatos(datos, idDiv){
         XMLHttpRequestObject.onreadystatechange = function(){
         if (XMLHttpRequestObject.readyState == 4 &&
         XMLHttpRequestObject.status == 200) {
-            eval(XMLHttpRequestObject.responseText)
+            var js = XMLHttpRequestObject.responseText;
+            var jsEval = eval(js);
+            objeto.innerText(jsEval);
         }
     }
     XMLHttpRequestObject.send(null);
