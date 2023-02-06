@@ -2,7 +2,7 @@ $(document).ready(function(){
     $("#btnAccionar").click(function(){
         $("#btnAccionar").carrusel();
     });
-    $( "#accordion" ).accordion();
+    $( "#accordion2" ).accordion();
 });
 
 jQuery.fn.carrusel = function() {
