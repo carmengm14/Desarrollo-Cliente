@@ -3,9 +3,9 @@ $(document).ready(function() {
     $.get("ejer3.xml", function(data) {
         var contenido = "";
         $(data).find("datos").each(function() {
-            contenido += $(this).text() + "<br>";
+            contenido += $(this).text() ;
         });
-        $("#contenido").html(contenido);
+        $("#contenido").html(contenido + "<br>");
     });
   });
 });
