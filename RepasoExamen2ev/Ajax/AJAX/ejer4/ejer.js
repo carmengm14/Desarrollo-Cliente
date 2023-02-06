@@ -1,7 +1,5 @@
 window.onload= function(){
-    document.getElementById('boton').onclick = sacarJS;
 }
-
 
 var XMLHttpRequestObject = false;
 if (window.XMLHttpRequest) {
@@ -10,10 +8,10 @@ XMLHttpRequestObject = new XMLHttpRequest();
 XMLHttpRequestObject = new ActiveXObject("Microsoft.XMLHTTP");
 }
 
-function sacarJS(){
+function sacarJS(fichero, Lugarcontenedor){
     if(XMLHttpRequestObject){
-        var contenedor = document.getElementById("contenido");
-        XMLHttpRequestObject.open("GET", "fichero.js")
+        var contenedor = document.getElementById(Lugarcontenedor);
+        XMLHttpRequestObject.open("GET", fichero)
 
         XMLHttpRequestObject.onreadystatechange = function(){
             if (XMLHttpRequestObject.readyState == 4 &&

@@ -11,7 +11,7 @@ XMLHttpRequestObject = new XMLHttpRequest();
 
 function cargarpagContent(){
     if(XMLHttpRequestObject){
-        var contenido = document.getElementById('contenido');
+        var contenido = document.getElementById('carga');
         XMLHttpRequestObject.open("GET", this.value)
         XMLHttpRequestObject.onreadystatechange = function(){
             if (XMLHttpRequestObject.readyState == 4 &&
