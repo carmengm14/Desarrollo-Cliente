@@ -2,6 +2,7 @@ $(document).ready(function(){
     $("#btnAccionar").click(function(){
         $("#btnAccionar").carrusel();
     });
+    //55444
     $( "#accordion2" ).accordion();
 });
 
