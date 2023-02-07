@@ -5,13 +5,13 @@
     }
 
 
-    $sql="SELECT id, name, apellido, email, telefono FROM Cliente WHERE id=?";
+    $sql="SELECT id, nombre, apellido, email, telefono FROM Cliente WHERE id=?";
 
     $stmt = $mysqli->prepare($sql);
     $stmt->bind_param("s", $_GET['envioNombre']);
     $stmt->execute();
     $stmt->store_result();
-    $stmt->bind_result($id, $name, $apellido, $email, $telefono);
+    $stmt->bind_result($id, $nombre, $apellido, $email, $telefono);
     $stmt->fetch();
     $stmt->close();
     
@@ -20,8 +20,8 @@
     echo "<tr>";
     echo "<th>ID</th>";
     echo "<td>" . $id . "</td>";
-    echo "<th>Name</th>";
-    echo "<td>" . $name . "</td>";
+    echo "<th>nombre</th>";
+    echo "<td>" . $nombre . "</td>";
     echo "<th>Apellido</th>";
     echo "<td>" . $apellido . "</td>";
     echo "<th>Email</th>";
