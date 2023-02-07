@@ -3,7 +3,7 @@ $(document).ready(function(){
         $("#btnAccionar").carrusel();
     });
     //55444
-    $( "#accordion2" ).accordion();
+    $( "#acordeon" ).accordion();
 });
 
 jQuery.fn.carrusel = function() {
