@@ -12,7 +12,9 @@ function sacardatos(){
         XMLHttpRequestObject.open("POST", 'ejer3.php', true);
         XMLHttpRequestObject.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         emailValue = document.getElementById('email').value;
+
         let urlValue = "email=" + emailValue;
+
         XMLHttpRequestObject.send(urlValue);
         XMLHttpRequestObject.onreadystatechange = function(){
         if (XMLHttpRequestObject.readyState == 4 &&
