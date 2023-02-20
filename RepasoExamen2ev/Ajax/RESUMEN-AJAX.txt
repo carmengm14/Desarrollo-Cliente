@@ -1,0 +1,93 @@
+AJAX:
+    Acceder a ficheros:
+        - Si el fichero es de Taxto:
+        · responseText
+
+        -Si el fichero es de HTML:
+        · responseText
+        · responseHTML
+
+        -Si es una imagen:
+            En el código html se alojarán las imagenes en de en un div en una etiqueta img, luego se añadirá el atributo src en js. (ES IMPORTANTE PONER EL NOMBRE DEL FICHERO QUE CONTIENE LA RUTA DE LA IMAGEN EN LUGAR DE LA RUTA DE LA IMAGEN DIRECTAMENTE.)
+        · responseText
+
+        -Si el fichero es de XML:
+            Si hay más de un nodo hay que recorrerlos.
+        · responseXML
+
+        -Si el fichero es de JS:
+            Hay que convertirlo con eval antes del responseText
+            · responseText
+
+        -Si el fichero es de PHP:
+            · responseText
+
+        -Si el fichero es de CSS:
+            · responseText
+
+        -Si el fichero es de JSON:
+            Hay que convertirlo con JSON.parse() antes del responseText
+            · responseText
+
+    EJEMPLOS:
+    -EJEMPLO DE HTML SIMPLE:
+        <h1>CARGAR CONTENIDO DE FORMA ASINCRONA</h1>
+        <button style="cursor: pointer;" id="boton">CARGAR CONTENIDO</button>
+        <br><br>
+        <div id="contenido"></div>
+
+    -EJEMPLO DE JS BÁSICO ( ejemplo de traer un js(ejer4), ejemplo de traer xml(ejer3), ejemplo de traer PHP(ejer6) ):
+        window.onload= function(){
+        document.getElementById('boton').onclick = sacarPHP;
+        }
+        var XMLHttpRequestObject = false;
+        if (window.XMLHttpRequest) {
+        XMLHttpRequestObject = new XMLHttpRequest();
+        } else if (window.ActiveXObject) {
+        XMLHttpRequestObject = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        function sacarPHP(fichero, Lugarcontenedor){
+            if(XMLHttpRequestObject){
+                var contenedor = document.getElementById("contenido");
+                XMLHttpRequestObject.open("GET", "fichero.php")
+                XMLHttpRequestObject.onreadystatechange = function(){
+                    if (XMLHttpRequestObject.readyState == 4 &&
+                        XMLHttpRequestObject.status == 200) {
+                        var resultado = XMLHttpRequestObject.responseText;
+                        contenedor.innerHTML = resultado;
+                    }
+                }
+                XMLHttpRequestObject.send(null);
+            }
+        }
+
+    -EJEMPLO DE HTML PARA CARGAR IMAGENES (EJER2)::
+        <h1>CARGAR IMAGENES DE FORMA ASINCRONA</h1>
+        <button style="cursor: pointer;" value="imagen.txt" id="imagen1">IMAGEN 1</button>
+        <button style="cursor: pointer;" value="imagen2.txt" id="imagen2">IMAGEN 2</button>
+        <br><br><br>
+        <img id="contenido" src="">
+
+    -EJEMPLO DE JS CARGA DE IMAGENES (EJER2):
+        window.onload= function(){
+        var boton = document.getElementById('imagen1');
+        boton.addEventListener('click', cambiarDeImagen);
+        var boton2 = document.getElementById('imagen2');
+        boton2.addEventListener('click', cambiarDeImagen);
+        }
+        var XMLHttpRequestObject = false;
+        XMLHttpRequestObject = new XMLHttpRequest();
+        function cambiarDeImagen(){
+            if(XMLHttpRequestObject){
+                XMLHttpRequestObject.open("GET", this.value)
+                XMLHttpRequestObject.onreadystatechange = function(){
+                    if (XMLHttpRequestObject.readyState == 4 &&
+                        XMLHttpRequestObject.status == 200) {
+                            var contenido = document.getElementById('contenido');
+                            contenido.src = XMLHttpRequestObject.responseText;
+                    }
+                }
+                XMLHttpRequestObject.send(null);
+            }
+        }
+        -EJEMPLO DE ENVIAR CON GET DATOS DE UN FORMULARIO A PHP (EJER7)
