@@ -1,0 +1,3 @@
+En este proyecto, he presentado diferentes funcionalidades de jquery, en primer lugar encontramos una calculadora, la cual funciona con html, css y js.
+Empezamos explicando el html, es una tabla básica con filas y columnas, cada casilla de la tabla le asignamos un valor que son tanto los numeros como las operaciones de suma, resta, división, etc...
+En el js lo que hacemos es coger dichos valores y hacerlos funcionales, tambien añadimos estilos css desde js para hacer la página más dinámica ya que cuando queremos mostrar el resultado de los valores clicados y el resultado de la operación realizada cambiamos los display y tamaños.
