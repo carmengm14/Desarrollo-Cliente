@@ -26,9 +26,36 @@ $(function(){
           $(".cal").css("display", "none");
      });
 
+    /*TEXTO ESCRITO EN JS*/
      $("#contenedor").html("<br><br> <center> ESTE TEXTO ESTA ESCRITO EN EL JS </center>");
      $("#contenedor").css("color","green");
+     /*FIN DEL TEXTO*/
+
+     $("#btnParpadear").click(function(){
+        $("p").parpadea();
+    });
+
+
+
+    /*WIDGET*/
+    $( document ).tooltip();
+    /**FIN DEL WIDGET */
+
 })
 /**FIN DE LA CALCULADORA */
 
-/*TEXTO ESCRITO EN JS*/
+
+jQuery.fn.parpadea = function() {
+    this.each(function(){
+        $(this).fadeOut(250, function(){
+          $(this).fadeIn(250, function(){
+            $(this).css("color", "red");
+            $(this).fadeOut(250, function(){
+                $(this).fadeIn(250);
+            });
+          });
+       });
+    });
+    return this;
+ }; 
+
